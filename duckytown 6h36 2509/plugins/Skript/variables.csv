@@ -3,7 +3,10 @@
 #
 # version: 2.7.0
 
+player::login::loggedin::a81536ca-871c-3712-9bac-ec869188de9d, boolean, 01
 player::login::password::0a8131b2-0f51-3dae-a389-3ccebd096b58, string, 800B6D696E687469656E326B39
 player::login::password::8a085b1f-c46c-3a72-a434-5e51de4b64c6, string, 8006363838323338
 player::login::password::a81536ca-871c-3712-9bac-ec869188de9d, string, 800A696C6C6964616E736B31
+player::login::password::ea7dad10-bf1f-3cb3-9f20-d5e999d384bb, string, 80053132333435
+player::login::password::f2efca04-1352-3431-9de6-9c9bfd24c0f7, string, 80053131313131
 
