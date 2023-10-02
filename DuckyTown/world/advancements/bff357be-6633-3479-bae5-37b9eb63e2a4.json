@@ -2551,5 +2551,11 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2023-10-02 19:50:33 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 3337
 }
