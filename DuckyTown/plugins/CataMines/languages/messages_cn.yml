@@ -1,329 +1,330 @@
 Time:
-  Seconds: 秒
-  Second: 秒
-  Minutes: 分钟
-  Minute: 分钟
-  Hours: 小时
-  Hour: 小时
+  Seconds: ç§’
+  Second: ç§’
+  Minutes: åˆ†é’Ÿ
+  Minute: åˆ†é’Ÿ
+  Hours: å°�æ—¶
+  Hour: å°�æ—¶
 
 GUI:
   Universal:
     Previous-Page:
-      Name: '&6&l上一个页'
+      Name: '&6&lä¸Šä¸€ä¸ªé¡µ'
       Lore:
       - ''
-      - '&7打开上一页'
+      - '&7æ‰“å¼€ä¸Šä¸€é¡µ'
     Next-Page:
-      Name: '&6&l下一页'
+      Name: '&6&lä¸‹ä¸€é¡µ'
       Lore:
       - ''
-      - '&7打开下一页'
+      - '&7æ‰“å¼€ä¸‹ä¸€é¡µ'
     Close:
-      Name: '&4&l关闭'
+      Name: '&4&lå…³é—­'
       Lore:
       - ''
-      - '&7关闭菜单'
+      - '&7å…³é—­è�œå�•'
     Back-To-Mine-Menu:
-      Name: '&6&l返回'
+      Name: '&6&lè¿”å›ž'
       Lore:
       - ''
-      - '&7返回菜单'
+      - '&7è¿”å›žè�œå�•'
     Back-To-Composition-Menu:
-      Name: '&6&l返回'
+      Name: '&6&lè¿”å›ž'
       Lore:
       - ''
-      - '&7返回菜单'
+      - '&7è¿”å›žè�œå�•'
     Back-To-Block-Menu:
-      Name: '&6&l返回'
+      Name: '&6&lè¿”å›ž'
       Lore:
       - ''
-      - '&7返回方块菜单'
-    Increase-By: '&a增加 %number%'
-    Decrease-By: '&c减少 %number%'
+      - '&7è¿”å›žæ–¹å�—è�œå�•'
+    Increase-By: '&aå¢žåŠ  %number%'
+    Decrease-By: '&cå‡�å°‘ %number%'
   Mine-List-Menu:
-    Title: '&b矿场'
+    Title: '&bçŸ¿åœº'
   Mine-Menu:
     Title: '&b%mine%'
     Items:
       Configure-Composition:
-        Name: '&6配置组合'
+        Name: '&6é…�ç½®ç»„å�ˆ'
         Lore:
-        - '&b配置组合: &c%chance%%'
+        - '&bé…�ç½®ç»„å�ˆ: &c%chance%%'
       Configure-Delay:
-        Name: '&6配置重置延迟'
+        Name: '&6é…�ç½®é‡�ç½®å»¶è¿Ÿ'
         Lore:
-        - '&b重置延迟: &c%delay%s'
-        - '&b重置百分比: &c%percentage%%'
+        - '&bé‡�ç½®å»¶è¿Ÿ: &c%delay%s'
+        - '&bé‡�ç½®ç™¾åˆ†æ¯”: &c%percentage%%'
         - ''
-        - '&f右键单击以切换模式'
+        - '&få�³é”®å�•å‡»ä»¥åˆ‡æ�¢æ¨¡å¼�'
       Configure-Percentage:
-        Name: '&6配置重置百分比'
+        Name: '&6é…�ç½®é‡�ç½®ç™¾åˆ†æ¯”'
         Lore:
-        - '&b重置百分比: &c%percentage%%'
-        - '&b重置延迟: &c%delay%s'
+        - '&bé‡�ç½®ç™¾åˆ†æ¯”: &c%percentage%%'
+        - '&bé‡�ç½®å»¶è¿Ÿ: &c%delay%s'
         - ''
-        - '&f右键单击以切换模式'
+        - '&få�³é”®å�•å‡»ä»¥åˆ‡æ�¢æ¨¡å¼�'
       Warn:
         Active:
-          Name: '&a重置时警告'
+          Name: '&aé‡�ç½®æ—¶è­¦å‘Š'
         Inactive:
-          Name: '&7不会在重置时发出警告'
+          Name: '&7ä¸�ä¼šåœ¨é‡�ç½®æ—¶å�‘å‡ºè­¦å‘Š'
         Lore:
-        - '&b如果启用警告重置，则选中'
+        - '&bå¦‚æžœå�¯ç”¨è­¦å‘Šé‡�ç½®ï¼Œåˆ™é€‰ä¸­'
       Warn-Global:
         Active:
-          Name: '&a全局警告'
+          Name: '&aå…¨å±€è­¦å‘Š'
         Inactive:
-          Name: '&7不会全局发出警告'
+          Name: '&7ä¸�ä¼šå…¨å±€å�‘å‡ºè­¦å‘Š'
         Lore:
-        - '&b如果启用全局警告，则选中'
+        - '&bå¦‚æžœå�¯ç”¨å…¨å±€è­¦å‘Šï¼Œåˆ™é€‰ä¸­'
       Warn-Hotbar:
         Active:
-          Name: '&a在血条中显示秒数'
+          Name: '&aåœ¨è¡€æ�¡ä¸­æ˜¾ç¤ºç§’æ•°'
         Inactive:
-          Name: '&7不会血条中显示秒数'
+          Name: '&7ä¸�ä¼šè¡€æ�¡ä¸­æ˜¾ç¤ºç§’æ•°'
         Lore:
-        - '&b如果启用血条中显示秒数，则选中'
+        - '&bå¦‚æžœå�¯ç”¨è¡€æ�¡ä¸­æ˜¾ç¤ºç§’æ•°ï¼Œåˆ™é€‰ä¸­'
       Teleport-Players:
         Active:
-          Name: '&a将玩家传送到重置状态'
+          Name: '&aå°†çŽ©å®¶ä¼ é€�åˆ°é‡�ç½®çŠ¶æ€�'
         Inactive:
-          Name: '&7不会在重置时传送玩家'
+          Name: '&7ä¸�ä¼šåœ¨é‡�ç½®æ—¶ä¼ é€�çŽ©å®¶'
         Lore:
-        - '&b如果启用重置时传送玩家，则选中'
+        - '&bå¦‚æžœå�¯ç”¨é‡�ç½®æ—¶ä¼ é€�çŽ©å®¶ï¼Œåˆ™é€‰ä¸­'
       Teleport-Players-To-Reset-Location:
         Active:
-          Name: '&a将玩家传送到重置位置'
+          Name: '&aå°†çŽ©å®¶ä¼ é€�åˆ°é‡�ç½®ä½�ç½®'
         Inactive:
-          Name: '&7将玩家传送到矿区上'
+          Name: '&7å°†çŽ©å®¶ä¼ é€�åˆ°çŸ¿åŒºä¸Š'
         Lore:
-        - '&b选择矿区玩家是否应该传送'
-        - '&b重置位置而不是仅仅在顶部'
-        - '&6&7确保您有一个重置位置'
-        - '&7使用 /cm setresettp'
-        - '&7激活，传送玩家才能生效'
+        - '&bé€‰æ‹©çŸ¿åŒºçŽ©å®¶æ˜¯å�¦åº”è¯¥ä¼ é€�'
+        - '&bé‡�ç½®ä½�ç½®è€Œä¸�æ˜¯ä»…ä»…åœ¨é¡¶éƒ¨'
+        - '&6&7ç¡®ä¿�æ‚¨æœ‰ä¸€ä¸ªé‡�ç½®ä½�ç½®'
+        - '&7ä½¿ç”¨ /cm setresettp'
+        - '&7æ¿€æ´»ï¼Œä¼ é€�çŽ©å®¶æ‰�èƒ½ç”Ÿæ•ˆ'
       Replace-Mode:
         Active:
-          Name: '&a更换模式开启'
+          Name: '&aæ›´æ�¢æ¨¡å¼�å¼€å�¯'
         Inactive:
-          Name: '&7替换模式关闭'
+          Name: '&7æ›¿æ�¢æ¨¡å¼�å…³é—­'
         Lore:
-        - '&b如果矿区只替换 &a空气 &b为矿物，则选中'
+        - '&bå¦‚æžœçŸ¿åŒºå�ªæ›¿æ�¢ &aç©ºæ°” &bä¸ºçŸ¿ç‰©ï¼Œåˆ™é€‰ä¸­'
       Efficiency-Lvl:
-        Name: '&6配置最小效率 l'
+        Name: '&6é…�ç½®æœ€å°�æ•ˆçŽ‡ l'
         Lore:
-        - '&b打破区块的最低效率水平: &c%level%'
+        - '&bæ‰“ç ´åŒºå�—çš„æœ€ä½Žæ•ˆçŽ‡æ°´å¹³: &c%level%'
         - ''
-        - '&6&l注意: &b管理员获得权限的许可'
-        - '&bcatamines.break 可以绕开这个'
+        - '&6&læ³¨æ„�: &bç®¡ç�†å‘˜èŽ·å¾—æ�ƒé™�çš„è®¸å�¯'
+        - '&bcatamines.break å�¯ä»¥ç»•å¼€è¿™ä¸ª'
       Warn-Distance:
-        Name: '&6配置警告距离'
+        Name: '&6é…�ç½®è­¦å‘Šè·�ç¦»'
         Lore:
-        - '&b警告距离: &c%distance%'
+        - '&bè­¦å‘Šè·�ç¦»: &c%distance%'
       Reset-Mine:
-        Name: '&c重置矿场'
+        Name: '&cé‡�ç½®çŸ¿åœº'
       Teleport:
-        Name: '&5传送到矿场'
+        Name: '&5ä¼ é€�åˆ°çŸ¿åœº'
         Lore:
-        - '&b把你传送到矿场'
+        - '&bæŠŠä½ ä¼ é€�åˆ°çŸ¿åœº'
       Delete:
-        Name: '&4&l删除矿场'
+        Name: '&4&låˆ é™¤çŸ¿åœº'
       Start-Stop:
         Active:
-          Name: '&a矿场开启'
+          Name: '&açŸ¿åœºå¼€å�¯'
         Inactive:
-          Name: '&7矿场关闭'
+          Name: '&7çŸ¿åœºå…³é—­'
         Lore:
-        - '&b如果应该自动重置，则选中开启'
+        - '&bå¦‚æžœåº”è¯¥è‡ªåŠ¨é‡�ç½®ï¼Œåˆ™é€‰ä¸­å¼€å�¯'
       Back:
-        Name: '&4&l返回'
+        Name: '&4&lè¿”å›ž'
         Lore:
         - ''
-        - '&7返回矿场菜单。'
+        - '&7è¿”å›žçŸ¿åœºè�œå�•ã€‚'
       Running:
         Active:
-          Name: '&a矿场目前正在运行'
+          Name: '&açŸ¿åœºç›®å‰�æ­£åœ¨è¿�è¡Œ'
           Lore:
-          - '&7如果矿场当前正在运行，则显示'
-          - '&7如果它不是，那么它将显示关闭。'
+          - '&7å¦‚æžœçŸ¿åœºå½“å‰�æ­£åœ¨è¿�è¡Œï¼Œåˆ™æ˜¾ç¤º'
+          - '&7å¦‚æžœå®ƒä¸�æ˜¯ï¼Œé‚£ä¹ˆå®ƒå°†æ˜¾ç¤ºå…³é—­ã€‚'
         Inactive:
-          Name: '&7我的没有运行是因为:'
+          Name: '&7æˆ‘çš„æ²¡æœ‰è¿�è¡Œæ˜¯å› ä¸º:'
           Reasons:
-            Invalid-Region: '&c它的区域无效'
-            Stopped: '&c它被停止了'
-            No-Composition: '&c它没有成分'
-            Invalid-Delay: '&c它的重置延迟是: %delay%'
+            Invalid-Region: '&cå®ƒçš„åŒºåŸŸæ— æ•ˆ'
+            Stopped: '&cå®ƒè¢«å�œæ­¢äº†'
+            No-Composition: '&cå®ƒæ²¡æœ‰æˆ�åˆ†'
+            Invalid-Delay: '&cå®ƒçš„é‡�ç½®å»¶è¿Ÿæ˜¯: %delay%'
   Composition-Menu:
-    Title: '&b地图: &c%chance%%'
+    Title: '&båœ°å›¾: &c%chance%%'
     Items:
       Composition-Block:
         Name: '%!unchangeable! internal material name%'
         Lore:
         - '&f%blockdata%'
         - ''
-        - '&b生成概率: &c%chance%%'
+        - '&bç”Ÿæˆ�æ¦‚çŽ‡: &c%chance%%'
         - ''
-        - '&a左键来配置哦'
+        - '&aå·¦é”®æ�¥é…�ç½®å“¦'
       Info:
-        Name: '&6信息:'
+        Name: '&6ä¿¡æ�¯:'
         Lore:
-        - '&a添加物品 右键/左键'
-        - '&a在你的库存中点击它们。'
+        - '&aæ·»åŠ ç‰©å“� å�³é”®/å·¦é”®'
+        - '&aåœ¨ä½ çš„åº“å­˜ä¸­ç‚¹å‡»å®ƒä»¬ã€‚'
         - ''
-        - '&c右键移除物品'
-        - '&c移除全部'
+        - '&cå�³é”®ç§»é™¤ç‰©å“�'
+        - '&cç§»é™¤å…¨éƒ¨'
   Composition-Block-Menu:
-    Title: '&b方块概率: &c%blockChance%% / %compChance%%'
+    Title: '&bæ–¹å�—æ¦‚çŽ‡: &c%blockChance%% / %compChance%%'
     Items:
       Current-Block:
         Name: '%!unchangeable! internal material name%'
         Lore:
         - '&f%blockdata%'
         - ''
-        - '&b方块概率: &c%blockChance%%'
-        - '&b合成概率: &c%compChance%%'
+        - '&bæ–¹å�—æ¦‚çŽ‡: &c%blockChance%%'
+        - '&bå�ˆæˆ�æ¦‚çŽ‡: &c%compChance%%'
       Change-Table:
-        Name: '&6更换战利品表'
+        Name: '&6æ›´æ�¢æˆ˜åˆ©å“�è¡¨'
       Configure-Table:
-        Name: '&6配置战利品表的掉落概率'
+        Name: '&6é…�ç½®æˆ˜åˆ©å“�è¡¨çš„æŽ‰è�½æ¦‚çŽ‡'
       Add-Loot-Table:
         Active:
-          Name: '&a战利品表将添加到默认下列表的顶部'
+          Name: '&aæˆ˜åˆ©å“�è¡¨å°†æ·»åŠ åˆ°é»˜è®¤ä¸‹åˆ—è¡¨çš„é¡¶éƒ¨'
         Inactive:
-          Name: '&7战利品表覆盖默认列表。'
+          Name: '&7æˆ˜åˆ©å“�è¡¨è¦†ç›–é»˜è®¤åˆ—è¡¨ã€‚'
         Lore:
-        - '&b选择如果您想要覆盖掉落概率。'
-        - '&b此块，或如果您想添加某些。'
-        - '&b掉落在其默认下降的基础上。'
-        - '&6&l注意: &b战利品桌是空的，这个会变为'
-        - '&b忽视'
+        - '&bé€‰æ‹©å¦‚æžœæ‚¨æƒ³è¦�è¦†ç›–æŽ‰è�½æ¦‚çŽ‡ã€‚'
+        - '&bæ­¤å�—ï¼Œæˆ–å¦‚æžœæ‚¨æƒ³æ·»åŠ æŸ�äº›ã€‚'
+        - '&bæŽ‰è�½åœ¨å…¶é»˜è®¤ä¸‹é™�çš„åŸºç¡€ä¸Šã€‚'
+        - '&6&læ³¨æ„�: &bæˆ˜åˆ©å“�æ¡Œæ˜¯ç©ºçš„ï¼Œè¿™ä¸ªä¼šå�˜ä¸º'
+        - '&bå¿½è§†'
   Change-Loot-Table-Menu:
-    Title: '&b将物品插入战利品表'
+    Title: '&bå°†ç‰©å“�æ�’å…¥æˆ˜åˆ©å“�è¡¨'
     Items:
       Save-Table:
-        Name: '&a保存战利品表'
-        Message: '&a保存了战利品表。'
+        Name: '&aä¿�å­˜æˆ˜åˆ©å“�è¡¨'
+        Message: '&aä¿�å­˜äº†æˆ˜åˆ©å“�è¡¨ã€‚'
   Loot-Table-List-Menu:
-    Title: '&b配置物品丢弃概率'
+    Title: '&bé…�ç½®ç‰©å“�ä¸¢å¼ƒæ¦‚çŽ‡'
     Items:
       Drop-Item:
         Name: '%!unchangeable! internal material name%'
         Lore:
         - ''
-        - '&b丢弃概率: &c%chance%%'
+        - '&bä¸¢å¼ƒæ¦‚çŽ‡: &c%chance%%'
   Configure-Item-Drop-Chances-Menu:
-    Title: '&b丢弃概率: &c%itemChance%/100%'
+    Title: '&bä¸¢å¼ƒæ¦‚çŽ‡: &c%itemChance%/100%'
     Items:
-      Current-Item: '%！不可改变！内部材料名称%'
+      Current-Item: '%ï¼�ä¸�å�¯æ”¹å�˜ï¼�å†…éƒ¨æ��æ–™å��ç§°%'
   Reset-Delay-Menu:
-    Title: '&b当前延迟: &c%delay%'
+    Title: '&bå½“å‰�å»¶è¿Ÿ: &c%delay%'
     Items:
       Current-Delay:
-        Name: '&b当前延迟 &c%delay%'
+        Name: '&bå½“å‰�å»¶è¿Ÿ &c%delay%'
       Switch:
-        Name: '&6开/关模式'
+        Name: '&6å¼€/å…³æ¨¡å¼�'
         Lore:
         - ''
-        - '&b将电流模式切换到 &6TIME'
+        - '&bå°†ç”µæµ�æ¨¡å¼�åˆ‡æ�¢åˆ° &6TIME'
   Reset-Percentage-Menu:
-    Title: '&b当前百分比: &c%percentage%%'
+    Title: '&bå½“å‰�ç™¾åˆ†æ¯”: &c%percentage%%'
     Items:
       Current-Percentage:
-        Name: '&b当前百分比: &c%percentage%'
+        Name: '&bå½“å‰�ç™¾åˆ†æ¯”: &c%percentage%'
       Switch:
-        Name: '&6开/关模式'
+        Name: '&6å¼€/å…³æ¨¡å¼�'
         Lore:
         - ''
-        - '&b将电流模式切换到 &6延迟'
+        - '&bå°†ç”µæµ�æ¨¡å¼�åˆ‡æ�¢åˆ° &6å»¶è¿Ÿ'
   Efficiency-Menu:
-    Title: '&b最小效率等级: &c%level%'
+    Title: '&bæœ€å°�æ•ˆçŽ‡ç­‰çº§: &c%level%'
     Items:
       Current-Level:
-        Name: '&b最低挖矿效率等级: &c%level%'
+        Name: '&bæœ€ä½ŽæŒ–çŸ¿æ•ˆçŽ‡ç­‰çº§: &c%level%'
         Lore:
-        - '&b挖掘矿物的最低效率等级: &c%level%'
+        - '&bæŒ–æŽ˜çŸ¿ç‰©çš„æœ€ä½Žæ•ˆçŽ‡ç­‰çº§: &c%level%'
         - ''
-        - '&6&l注意: &b你需要获得管理员的许可'
-        - '&bcatamines.break 可以绕开这个!'
+        - '&6&læ³¨æ„�: &bä½ éœ€è¦�èŽ·å¾—ç®¡ç�†å‘˜çš„è®¸å�¯'
+        - '&bcatamines.break å�¯ä»¥ç»•å¼€è¿™ä¸ª!'
   Warn-Distance-Menu:
-    Title: '&b警告距离: &c%distance%'
+    Title: '&bè­¦å‘Šè·�ç¦»: &c%distance%'
     Items:
       Current-Distance:
-        Name: '&a电流距离: &c%distance%'
+        Name: '&aç”µæµ�è·�ç¦»: &c%distance%'
 
 Commands:
-  Create: 矿场 &b%mine% &7创建.
-  Delete: 矿场 &b%mine% &7删除.
-  Reset-Mode: 重置 &b%mine% 于 &a%mode%&7.
-  Delay: 将重置延迟设置为 &a%seconds% &7秒.
-  Reset-Percentage: '&b%mine% &7现在重设有 &a%percentage%% &7方块左键'
+  Create: çŸ¿åœº &b%mine% &7åˆ›å»º.
+  Delete: çŸ¿åœº &b%mine% &7åˆ é™¤.
+  Reset-Mode: é‡�ç½® &b%mine% äºŽ &a%mode%&7.
+  Delay: å°†é‡�ç½®å»¶è¿Ÿè®¾ç½®ä¸º &a%seconds% &7ç§’.
+  Reset-Percentage: '&b%mine% &7çŽ°åœ¨é‡�è®¾æœ‰ &a%percentage%% &7æ–¹å�—å·¦é”®'
   Set:
-    Success: '&b%material% &7设为 &a%mine%&7. 你有 &6%remainingChance%% &7剩下的。'
-    Error: '%chance-over-100%. 你有 &6%remainingChance%% &7剩下的。'
+    Success: '&b%material% &7è®¾ä¸º &a%mine%&7. ä½ æœ‰ &6%remainingChance%% &7å‰©ä¸‹çš„ã€‚'
+    Error: '%chance-over-100%. ä½ æœ‰ &6%remainingChance%% &7å‰©ä¸‹çš„ã€‚'
   Unset:
-    Clear: 矿区 &a%mine% &7已被清除
+    Clear: çŸ¿åŒº &a%mine% &7å·²è¢«æ¸…é™¤
     Remove:
-      Success: '&b%material% &7被移除了。你有 &a%remainingChance%% &7剩下的。'
-      Error: '&b%material% &7不在...组成中 %mine%&7. 你有 &a%remainingChance%% &7剩下的。'
-  Reset: 矿区已经被重置了。
+      Success: '&b%material% &7è¢«ç§»é™¤äº†ã€‚ä½ æœ‰ &a%remainingChance%% &7å‰©ä¸‹çš„ã€‚'
+      Error: '&b%material% &7ä¸�åœ¨...ç»„æˆ�ä¸­ %mine%&7. ä½ æœ‰ &a%remainingChance%%
+        &7å‰©ä¸‹çš„ã€‚'
+  Reset: çŸ¿åŒºå·²ç»�è¢«é‡�ç½®äº†ã€‚
   Teleport:
-    Self: 传送至 &b%mine%.
-    Other: 传送玩家 &6%player% &7至 &b%mine%
-  Set-Teleport: 固定传送 &b%mine% 的传送位置.
-  Set-Reset-Teleport: 设置重置传送位置 &b%mine%. &7还将TelportPlayersToResetLocation设置为&a开启
+    Self: ä¼ é€�è‡³ &b%mine%.
+    Other: ä¼ é€�çŽ©å®¶ &6%player% &7è‡³ &b%mine%
+  Set-Teleport: å›ºå®šä¼ é€� &b%mine% çš„ä¼ é€�ä½�ç½®.
+  Set-Reset-Teleport: è®¾ç½®é‡�ç½®ä¼ é€�ä½�ç½® &b%mine%. &7è¿˜å°†TelportPlayersToResetLocationè®¾ç½®ä¸º&aå¼€å�¯
   Flag:
-    Move-Region: 移动区域 &c%mine%.
-    Rename: 命名 &b%oldmine% &7为 &a%newmine%.
-    Replace-Mode: 设置模式 &b%mine% &7至 &a%arg%.
-    Teleport-Players: 传送玩家 &b%mine% &7至 &a%arg%.
+    Move-Region: ç§»åŠ¨åŒºåŸŸ &c%mine%.
+    Rename: å‘½å�� &b%oldmine% &7ä¸º &a%newmine%.
+    Replace-Mode: è®¾ç½®æ¨¡å¼� &b%mine% &7è‡³ &a%arg%.
+    Teleport-Players: ä¼ é€�çŽ©å®¶ &b%mine% &7è‡³ &a%arg%.
     Warn:
-      Warn-Hotbar: 警告血条 &b%mine% &7设置至 &a%arg%.
-      Warn-Enable: 警告开启 &b%mine% &7设置至 &a%arg%.
-      Warn-Global: 全局警告 &b%mine% &7设置至 &a%arg%.
-      Warn-Message: '&a更新的警告消息。'
-      Reset-Message: '&a更新的重置消息。'
-      Warn-Distance: 警告距离 &b%mine% &7设置至 &a%arg%.
-      Warn-Seconds: '&a更新的警告秒。'
-  Start: '&a开启矿区 %mine%.'
-  Stop: '&c关闭矿区 %mine%.'
-  Start-Tasks: '&a开启了全部的矿区'
-  Stop-Tasks: '&c关闭了全部的矿区'
+      Warn-Hotbar: è­¦å‘Šè¡€æ�¡ &b%mine% &7è®¾ç½®è‡³ &a%arg%.
+      Warn-Enable: è­¦å‘Šå¼€å�¯ &b%mine% &7è®¾ç½®è‡³ &a%arg%.
+      Warn-Global: å…¨å±€è­¦å‘Š &b%mine% &7è®¾ç½®è‡³ &a%arg%.
+      Warn-Message: '&aæ›´æ–°çš„è­¦å‘Šæ¶ˆæ�¯ã€‚'
+      Reset-Message: '&aæ›´æ–°çš„é‡�ç½®æ¶ˆæ�¯ã€‚'
+      Warn-Distance: è­¦å‘Šè·�ç¦» &b%mine% &7è®¾ç½®è‡³ &a%arg%.
+      Warn-Seconds: '&aæ›´æ–°çš„è­¦å‘Šç§’ã€‚'
+  Start: '&aå¼€å�¯çŸ¿åŒº %mine%.'
+  Stop: '&cå…³é—­çŸ¿åŒº %mine%.'
+  Start-Tasks: '&aå¼€å�¯äº†å…¨éƒ¨çš„çŸ¿åŒº'
+  Stop-Tasks: '&cå…³é—­äº†å…¨éƒ¨çš„çŸ¿åŒº'
   Synced: '&aSynced all mines'
   Reload:
-    All: '&a插件重载成功.'
-    Mines: '&a矿区重载成功.'
-    Config: '&a配置重载成功.'
-    Messages: '&a语言文件重载成功.'
-    Properties: '&a属性已重载成功.'
+    All: '&aæ�’ä»¶é‡�è½½æˆ�åŠŸ.'
+    Mines: '&açŸ¿åŒºé‡�è½½æˆ�åŠŸ.'
+    Config: '&aé…�ç½®é‡�è½½æˆ�åŠŸ.'
+    Messages: '&aè¯­è¨€æ–‡ä»¶é‡�è½½æˆ�åŠŸ.'
+    Properties: '&aå±žæ€§å·²é‡�è½½æˆ�åŠŸ.'
 
 Error-Messages:
-  No-Permission: '&c你没有权限这样做哦!'
-  Only-Players: '&c只有玩家才能执行此命令。!'
-  Unknown-Command: 未知的命令.
-  Unknown-Flag: 未知的标志.
-  Player-Not-Found: 玩家 &6%player% &7找不到！
+  No-Permission: '&cä½ æ²¡æœ‰æ�ƒé™�è¿™æ ·å�šå“¦!'
+  Only-Players: '&cå�ªæœ‰çŽ©å®¶æ‰�èƒ½æ‰§è¡Œæ­¤å‘½ä»¤ã€‚!'
+  Unknown-Command: æœªçŸ¥çš„å‘½ä»¤.
+  Unknown-Flag: æœªçŸ¥çš„æ ‡å¿—.
+  Player-Not-Found: çŽ©å®¶ &6%player% &7æ‰¾ä¸�åˆ°ï¼�
   Mine:
-    Incomplete-Region: 你必须选择一个区域！
-    Not-Exist: 工具不存在!
-    Exist: 工具不存在！
-    Cant-Reset: 不能重置矿场
-    Material-Not-Found: 材料没找到！
-    Not-Number: 你的概率一定是数字！
-    Not-Percentage: 你的概率一定要是百分比！
-    Invalid-Chance: 你的概率必须在0到100%之间！
-    Invalid-Range: 您的输入必须在 %start%-%end%之间!
-    Material-Not-Solid: 材料必须是实心的块！
-    Invalid-Block-Configuration: 无效的方块配置！
-    Invalid-Boolean: 你的最后一个论点必须是正确的还是错误的！
-    Teleport-Error: 位置不存在！
-    Block-Not-In-Composition: 方块不在地图中
-    Invalid-Region: '&c区域无效！'
-    Material-In-Composition: 材料已经在合成成功了！
-    Chance-Over-100: 概率超过了100%！
+    Incomplete-Region: ä½ å¿…é¡»é€‰æ‹©ä¸€ä¸ªåŒºåŸŸï¼�
+    Not-Exist: å·¥å…·ä¸�å­˜åœ¨!
+    Exist: å·¥å…·ä¸�å­˜åœ¨ï¼�
+    Cant-Reset: ä¸�èƒ½é‡�ç½®çŸ¿åœº
+    Material-Not-Found: æ��æ–™æ²¡æ‰¾åˆ°ï¼�
+    Not-Number: ä½ çš„æ¦‚çŽ‡ä¸€å®šæ˜¯æ•°å­—ï¼�
+    Not-Percentage: ä½ çš„æ¦‚çŽ‡ä¸€å®šè¦�æ˜¯ç™¾åˆ†æ¯”ï¼�
+    Invalid-Chance: ä½ çš„æ¦‚çŽ‡å¿…é¡»åœ¨0åˆ°100%ä¹‹é—´ï¼�
+    Invalid-Range: æ‚¨çš„è¾“å…¥å¿…é¡»åœ¨ %start%-%end%ä¹‹é—´!
+    Material-Not-Solid: æ��æ–™å¿…é¡»æ˜¯å®žå¿ƒçš„å�—ï¼�
+    Invalid-Block-Configuration: æ— æ•ˆçš„æ–¹å�—é…�ç½®ï¼�
+    Invalid-Boolean: ä½ çš„æœ€å�Žä¸€ä¸ªè®ºç‚¹å¿…é¡»æ˜¯æ­£ç¡®çš„è¿˜æ˜¯é”™è¯¯çš„ï¼�
+    Teleport-Error: ä½�ç½®ä¸�å­˜åœ¨ï¼�
+    Block-Not-In-Composition: æ–¹å�—ä¸�åœ¨åœ°å›¾ä¸­
+    Invalid-Region: '&cåŒºåŸŸæ— æ•ˆï¼�'
+    Material-In-Composition: æ��æ–™å·²ç»�åœ¨å�ˆæˆ�æˆ�åŠŸäº†ï¼�
+    Chance-Over-100: æ¦‚çŽ‡è¶…è¿‡äº†100%ï¼�
   GUI:
-    Mine-Deleted: 从矿区工具菜单上踢出！
-    Block-Deleted: 从方块菜单上踢出！
-    Loot-Table-Change: 战利品改变了！
-    First-Page: 你已经在第一页了
-    Last-Page: 你在最后一页
-    Mine-Doesnt-Exist: '&c你想打开的矿区已经不存在了！'
+    Mine-Deleted: ä»ŽçŸ¿åŒºå·¥å…·è�œå�•ä¸Šè¸¢å‡ºï¼�
+    Block-Deleted: ä»Žæ–¹å�—è�œå�•ä¸Šè¸¢å‡ºï¼�
+    Loot-Table-Change: æˆ˜åˆ©å“�æ”¹å�˜äº†ï¼�
+    First-Page: ä½ å·²ç»�åœ¨ç¬¬ä¸€é¡µäº†
+    Last-Page: ä½ åœ¨æœ€å�Žä¸€é¡µ
+    Mine-Doesnt-Exist: '&cä½ æƒ³æ‰“å¼€çš„çŸ¿åŒºå·²ç»�ä¸�å­˜åœ¨äº†ï¼�'

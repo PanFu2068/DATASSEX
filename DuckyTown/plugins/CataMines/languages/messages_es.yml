@@ -1,6 +1,6 @@
 Time:
   Seconds: segundos
-  Second: ségundo
+  Second: sÃ©gundo
   Minutes: minutos
   Minute: minuto
   Hours: horas
@@ -9,35 +9,35 @@ Time:
 GUI:
   Universal:
     Previous-Page:
-      Name: '&6&lPágina anterior'
+      Name: '&6&lPÃ¡gina anterior'
       Lore:
       - ''
-      - '&7Abre la página anterior si existe una'
+      - '&7Abre la pÃ¡gina anterior si existe una'
     Next-Page:
-      Name: '&6&lSiguente página'
+      Name: '&6&lSiguente pÃ¡gina'
       Lore:
       - ''
-      - '&7Abre la siguiente página si existe una'
+      - '&7Abre la siguiente pÃ¡gina si existe una'
     Close:
       Name: '&4&lCerrar'
       Lore:
       - ''
-      - '&7Cierra el menú'
+      - '&7Cierra el menÃº'
     Back-To-Mine-Menu:
       Name: '&6&lVolver'
       Lore:
       - ''
-      - '&7Vuelve al menú de mina'
+      - '&7Vuelve al menÃº de mina'
     Back-To-Composition-Menu:
       Name: '&6&lVolver'
       Lore:
       - ''
-      - '&7Vuelve al menú de composición'
+      - '&7Vuelve al menÃº de composiciÃ³n'
     Back-To-Block-Menu:
       Name: '&6&lVolver'
       Lore:
       - ''
-      - '&7Volver al menú de bloque'
+      - '&7Volver al menÃº de bloque'
     Increase-By: '&aAumentar por %number%'
     Decrease-By: '&cReducir por %number%'
   Mine-List-Menu:
@@ -46,9 +46,9 @@ GUI:
     Title: '&b%mine%'
     Items:
       Configure-Composition:
-        Name: '&6Configurar composición'
+        Name: '&6Configurar composiciÃ³n'
         Lore:
-        - '&bComposición: &c%chance%%'
+        - '&bComposiciÃ³n: &c%chance%%'
       Configure-Delay:
         Name: '&6Configurar el temporizador de reinicio'
         Lore:
@@ -65,14 +65,14 @@ GUI:
         Inactive:
           Name: '&7No avisa al reiniciar'
         Lore:
-        - '&bSeleccione si la mina debería avisar durante el reinicio'
+        - '&bSeleccione si la mina deberÃ­a avisar durante el reinicio'
       Warn-Global:
         Active:
           Name: '&aAvisa globalmente'
         Inactive:
           Name: '&7No avisa globalmente'
         Lore:
-        - '&bSeleccione si la mina debería avisar globalmente'
+        - '&bSeleccione si la mina deberÃ­a avisar globalmente'
       Warn-Hotbar:
         Active:
           Name: '&aMuestra los segundos en la barra de acceso directo'
@@ -87,7 +87,7 @@ GUI:
         Inactive:
           Name: '&7No teletransportar a los jugadores al reiniciarse'
         Lore:
-        - '&bSeleccione si la mina debería de teletransportar a los jugadores'
+        - '&bSeleccione si la mina deberÃ­a de teletransportar a los jugadores'
         - '&bque se encuentren dentro de la mina durante el reinicio'
       Teleport-Players-To-Reset-Location:
         Active:
@@ -95,9 +95,9 @@ GUI:
         Inactive:
           Name: '&7Teletransporta a los jugadores encima de la mina'
         Lore:
-        - '&bSeleccione si la mina debería de teletransportar a los jugadores'
-        - '&ba un punto de reinicio en lugar de sólo encima de la mina'
-        - '&6&lNOTAS: &7Asegúrate de que tienes un punto de reinicio'
+        - '&bSeleccione si la mina deberÃ­a de teletransportar a los jugadores'
+        - '&ba un punto de reinicio en lugar de sÃ³lo encima de la mina'
+        - '&6&lNOTAS: &7AsegÃºrate de que tienes un punto de reinicio'
         - '&7usando /cm setresettp. Teletransportar jugadores'
         - '&7debe estar activado para que esto surta efecto'
       Replace-Mode:
@@ -106,11 +106,11 @@ GUI:
         Inactive:
           Name: '&7Modo de reemplazo desactivado'
         Lore:
-        - '&bSeleccione si la mina sólo debe remplazar &lAIRE'
+        - '&bSeleccione si la mina sÃ³lo debe remplazar &lAIRE'
       Efficiency-Lvl:
         Name: '&6Configure el min. nivel de eficiencia'
         Lore:
-        - '&bNivel mínimo de eficiencia para romper los bloques: &c%level%'
+        - '&bNivel mÃ­nimo de eficiencia para romper los bloques: &c%level%'
         - ''
         - '&6&lNOTA: &bDebe ser Admin o tener el permiso'
         - '&bcatamines.break evitar esto!'
@@ -132,75 +132,75 @@ GUI:
         Inactive:
           Name: '&7Mina desactivada'
         Lore:
-        - '&bSeleccione si la mina debería de reiniciarse automáticamente'
+        - '&bSeleccione si la mina deberÃ­a de reiniciarse automÃ¡ticamente'
       Back:
         Name: '&4&lVolver'
         Lore:
         - ''
-        - '&7Vuelve al menú de mina'
+        - '&7Vuelve al menÃº de mina'
       Running:
         Active:
-          Name: '&aLa mina está funcionando actualmente'
+          Name: '&aLa mina estÃ¡ funcionando actualmente'
           Lore:
-          - '&7Muestra si la mina está funcionando actualmente.'
-          - '&7Por lo contrario, mostrará el por qué no.'
+          - '&7Muestra si la mina estÃ¡ funcionando actualmente.'
+          - '&7Por lo contrario, mostrarÃ¡ el por quÃ© no.'
         Inactive:
-          Name: '&7La mina no está funcionando debido a:'
+          Name: '&7La mina no estÃ¡ funcionando debido a:'
           Reasons:
-            Invalid-Region: '&cSu región es inválida'
-            Stopped: '&cEstá parada'
-            No-Composition: '&cNo tiene ninguna composición'
+            Invalid-Region: '&cSu regiÃ³n es invÃ¡lida'
+            Stopped: '&cEstÃ¡ parada'
+            No-Composition: '&cNo tiene ninguna composiciÃ³n'
             Invalid-Delay: '&cSu temporizador de reinicio es %delay%'
   Composition-Menu:
-    Title: '&bComposición: &c%chance%%'
+    Title: '&bComposiciÃ³n: &c%chance%%'
     Items:
       Composition-Block:
         Name: '%!unchangeable! internal material name%'
         Lore:
         - '&f%blockdata%'
         - ''
-        - '&bPorcentaje de aparición: &c%chance%%'
+        - '&bPorcentaje de apariciÃ³n: &c%chance%%'
         - ''
         - '&aPresioname usando clic izquierdo para configurar'
       Info:
-        Name: '&6Información:'
+        Name: '&6InformaciÃ³n:'
         Lore:
-        - '&aAñadir elementos mediante izquierda/derecha'
+        - '&aAÃ±adir elementos mediante izquierda/derecha'
         - '&aHaciendo clic en ellos en tu inventario.'
         - ''
         - '&cEliminar elementos haciendo clic derecho'
-        - '&csobre ellos en la lista de composición'
+        - '&csobre ellos en la lista de composiciÃ³n'
   Composition-Block-Menu:
-    Title: '&bPorcentaje de aparición: &c%blockChance%% / %compChance%%'
+    Title: '&bPorcentaje de apariciÃ³n: &c%blockChance%% / %compChance%%'
     Items:
       Current-Block:
         Name: '%!unchangeable! internal material name%'
         Lore:
         - '&f%blockdata%'
         - ''
-        - '&bPorcentaje de aparición: &c%blockChance%%'
-        - '&bPorcentaje de composición: &c%compChance%%'
+        - '&bPorcentaje de apariciÃ³n: &c%blockChance%%'
+        - '&bPorcentaje de composiciÃ³n: &c%compChance%%'
       Change-Table:
-        Name: '&6Modificar tabla de botín'
+        Name: '&6Modificar tabla de botÃ­n'
       Configure-Table:
-        Name: '&6Configurar porcentaje de drops de la tabla de botín'
+        Name: '&6Configurar porcentaje de drops de la tabla de botÃ­n'
       Add-Loot-Table:
         Active:
-          Name: '&aLa tabla de botín es añadida encima de los drop default'
+          Name: '&aLa tabla de botÃ­n es aÃ±adida encima de los drop default'
         Inactive:
-          Name: '&7La tabla de botín anula los drops predeterminados'
+          Name: '&7La tabla de botÃ­n anula los drops predeterminados'
         Lore:
         - '&bSeleccione si desea anular los drops predeterminados'
-        - '&bde este bloque, o si quiere añadir un drop en concreto'
+        - '&bde este bloque, o si quiere aÃ±adir un drop en concreto'
         - '&bpor encima de su drop predeterminado.'
-        - '&6&lNOTA: &bSi la tabla de botín está vacía, esto'
+        - '&6&lNOTA: &bSi la tabla de botÃ­n estÃ¡ vacÃ­a, esto'
         - '&bes ignorado.'
   Change-Loot-Table-Menu:
-    Title: '&bInsertar elementos en la tabla de botín'
+    Title: '&bInsertar elementos en la tabla de botÃ­n'
     Items:
       Save-Table:
-        Name: '&aGuardar tabla de botín'
-        Message: '&aTabla de botín guardada.'
+        Name: '&aGuardar tabla de botÃ­n'
+        Message: '&aTabla de botÃ­n guardada.'
   Loot-Table-List-Menu:
     Title: '&bConfigurar probabilidad de soltar objetos'
     Items:
@@ -234,12 +234,12 @@ GUI:
         - ''
         - '&bCambia el modo actual a &6temporizador'
   Efficiency-Menu:
-    Title: '&bNivel de eficiencia mínimo: &c%level%'
+    Title: '&bNivel de eficiencia mÃ­nimo: &c%level%'
     Items:
       Current-Level:
-        Name: '&bMínimo nivel de eficiencia picar en la mina: &c%level%'
+        Name: '&bMÃ­nimo nivel de eficiencia picar en la mina: &c%level%'
         Lore:
-        - '&bMínimo nivel de eficiencia para romper bloques: &c%level%'
+        - '&bMÃ­nimo nivel de eficiencia para romper bloques: &c%level%'
         - ''
         - '&6&lNOTA: &bDebe ser Admin o tener el permiso'
         - '&bcatamines.break evitar esto!'
@@ -258,20 +258,20 @@ Commands:
       &7restante para asignar.'
     Error: '%chance-over-100%. Tienes un &6%remainingChance%% &7sobrante.'
   Unset:
-    Clear: La composición de la mina &a%mine% &7ha sido despejada
+    Clear: La composiciÃ³n de la mina &a%mine% &7ha sido despejada
     Remove:
       Success: '&b%material% &7ha sido eliminado. Tienes un &a%remainingChance%% &7sobrante.'
-      Error: '&b%material% &7no estaba en la composición de la mina %mine%&7. Tienes
+      Error: '&b%material% &7no estaba en la composiciÃ³n de la mina %mine%&7. Tienes
         un &a%remainingChance%% &7sobrante.'
   Reset: La mina ha sido reiniciada.
   Teleport:
     Self: Teletransportado a la mina &b%mine%.
     Other: Jugador &6%player% teletransportado &7a mina &b%mine%
   Set-Teleport: Colocar punto de teletransporte para mina &b%mine%.
-  Set-Reset-Teleport: Colocar teletransporte de reinicio para mina &b%mine%. &7También
+  Set-Reset-Teleport: Colocar teletransporte de reinicio para mina &b%mine%. &7TambiÃ©n
     cambia teleportPlayersToResetLocation a &atrue
   Flag:
-    Move-Region: Región movida de mina &c%mine%.
+    Move-Region: RegiÃ³n movida de mina &c%mine%.
     Rename: Renombrada &b%oldmine% &7a &a%newmine%.
     Replace-Mode: Establecer el modo de reemplazo de &b%mine% &7a &a%arg%.
     Teleport-Players: Teletransporte de jugadores de mina &b%mine% &7asignado a &a%arg%.
@@ -291,7 +291,7 @@ Commands:
   Reload:
     All: '&aEl plugin ha sido recargado.'
     Mines: '&aLas minas han sido recargadas.'
-    Config: '&aLa configuración ha sido recargada.'
+    Config: '&aLa configuraciÃ³n ha sido recargada.'
     Messages: '&aLos mensajes han sido recargados.'
     Properties: '&aLas propiedades han sido recargadas.'
 
@@ -302,7 +302,7 @@ Error-Messages:
   Unknown-Flag: Propiedad desconocida.
   Player-Not-Found: el jugador &6%player% &7no ha sido encontrado!
   Mine:
-    Incomplete-Region: Debes seleccionar una región primero!
+    Incomplete-Region: Debes seleccionar una regiÃ³n primero!
     Not-Exist: La mina no existe!
     Exist: La mina ya existe actualmente!
     Cant-Reset: No se puede reiniciar la mina!
@@ -310,18 +310,18 @@ Error-Messages:
     Not-Number: Tu probabilidad debe ser un numero!
     Not-Percentage: Tu probabilidad debe ser un porcentaje!
     Invalid-Chance: Tu probabilidad debe estar entre 0 y 100%!
-    Material-Not-Solid: El material debe ser un bloque sólido!
-    Invalid-Block-Configuration: Configuración inválida de bloque!
-    Invalid-Boolean: Tu último argumento debe ser true o false!
-    Teleport-Error: La localización no existe!
-    Block-Not-In-Composition: El bloque no está en la composición
-    Invalid-Region: '&cLa región es inválida!'
-    Material-In-Composition: Este material ya está en la composición!
-    Chance-Over-100: El porcentaje deseado superaría el 100%
+    Material-Not-Solid: El material debe ser un bloque sÃ³lido!
+    Invalid-Block-Configuration: ConfiguraciÃ³n invÃ¡lida de bloque!
+    Invalid-Boolean: Tu Ãºltimo argumento debe ser true o false!
+    Teleport-Error: La localizaciÃ³n no existe!
+    Block-Not-In-Composition: El bloque no estÃ¡ en la composiciÃ³n
+    Invalid-Region: '&cLa regiÃ³n es invÃ¡lida!'
+    Material-In-Composition: Este material ya estÃ¡ en la composiciÃ³n!
+    Chance-Over-100: El porcentaje deseado superarÃ­a el 100%
   GUI:
-    Mine-Deleted: Expulsado del menú de mina!
-    Block-Deleted: Expulsado del menú de bloque!
-    Loot-Table-Change: Tabla de botín cambiada!
-    First-Page: Ya te encuentras en la primera página
-    Last-Page: Ya te encuentras en la última página
+    Mine-Deleted: Expulsado del menÃº de mina!
+    Block-Deleted: Expulsado del menÃº de bloque!
+    Loot-Table-Change: Tabla de botÃ­n cambiada!
+    First-Page: Ya te encuentras en la primera pÃ¡gina
+    Last-Page: Ya te encuentras en la Ãºltima pÃ¡gina
     Mine-Doesnt-Exist: '&cLa mina a la que intentaste acceder ya no existe!'

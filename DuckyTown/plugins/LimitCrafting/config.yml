@@ -8,71 +8,14 @@ limitcrafting:
   # use %item% to get item name
   message: '&eBạn không được phép chế tạo %item%'
   # set to true if you want to block ALL items in the game from crafting
-  block-all-items: false
+  block-all-items: true
   # list of materials you would like to block from crafting if block-all-items is set to false
   # note: items listed in default-block-list will still be blocked even if you're using groups
   # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
   default-block-list:
-    - 'LADDER'
-    - 'TORCH'
-    - 'GOLDEN_APPLE'
-    -'GOLDEN_SWORD'
-    -'IRON_SWORD'
-    -'STONE_SWORD'
-    -'WOOD_SWORD'
-    -'NETHERITE_SWORD'
-    -'DIAMOND_PICKAXE'
-    -'GOLDEN_PICKAXE'
-    -'IRON_PICKAXE'
-    -'STONE_PICKAXE'
-    -'WOOD_PICKAXE'
-    -'NETHERITE_PICKAXE'
-    -'DIAMOND_AXE'
-    -'GOLDEN_AXE'
-    -'IRON_AXE'
-    -'STONE_AXE'
-    -'WOOD_AXE'
-    -'NETHERITE_AXE'
-    -'DIAMOND_SHOVEL'
-    -'GOLDEN_SHOVEL'
-    -'IRON_SHOVEL'
-    -'STONE_SHOVEL'
-    -'WOOD_SHOVEL'
-    -'NETHERITE_SHOVEL'
-    -'DIAMOND_HOE'
-    -'GOLDEN_HOE'
-    -'IRON_HOE'
-    -'STONE_HOE'
-    -'WOOD_HOE'
-    -'NETHERITE_HOE'
-    -'FISHING_ROD'
-    -'BREWING_STAND'
-    -'CROSSBOW'
-    -'BOW'
-    -'ARROW'
-    -'LEATHER_CHESTPLATE'
-    -'LEATHER_HELMET'
-    -'LEATHER_LEGGINGS'
-    -'LEATHER_BOOTS'
-    -'IRON_CHESTPLATE'
-    -'IRON_HELMET'
-    -'IRON_LEGGINGS'
-    -'IRON_BOOTS'
-    -'GOLDEN_CHESTPLATE'
-    -'GOLDEN_HELMET'
-    -'GOLDEN_LEGGINGS'
-    -'GOLDEN_BOOTS'
-    -'DIAMOND_CHESTPLATE'
-    -'DIAMOND_HELMET'
-    -'DIAMOND_LEGGINGS'
-    -'DIAMOND_BOOTS'
-    -'NETHERITE_CHESTPLATE'
-    -'NETHERITE_HELMET'
-    -'NETHERITE_LEGGINGS'
-    -'NETHERITE_BOOTS'
   # disallow specific crafting of recipes for specific players using group permissions, works in addition with default-block-list
   # simply use 'limitcrafting.groups.<group-name>' in player permissions, to block recipes for specific groups of players
-  enable-groups: true
+  enable-groups: false
   groups:
     silver:
       - 'OAK_PLANKS'

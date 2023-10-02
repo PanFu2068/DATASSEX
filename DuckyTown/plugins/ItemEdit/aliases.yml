@@ -40,6 +40,7 @@ enchant:
   soul_speed: soul_speed
   swift_sneak: swift_sneak
   ae_glow: ae_glow
+  glow: glow
 banner_pattern:
   square_bottom_left: bottom_left_corner
   square_bottom_right: bottom_right_corner

@@ -15,7 +15,7 @@
 _version: 30
 anticheat:
   anti-xray:
-    enabled: false
+    enabled: true
     engine-mode: 1
     hidden-blocks:
     - copper_ore
@@ -39,12 +39,19 @@ anticheat:
     - emerald_ore
     - deepslate_emerald_ore
     - ender_chest
+    - ancient_debris
+    - nether_gold_ore
+    - nether_quartz_ore
     lava-obscures: false
-    max-block-height: 64
+    max-block-height: 128
     replacement-blocks:
     - stone
     - oak_planks
     - deepslate
+    - basalt
+    - netherrack
+    - soul_sand
+    - soul_soil
     update-radius: 2
     use-permission: false
   obfuscation:

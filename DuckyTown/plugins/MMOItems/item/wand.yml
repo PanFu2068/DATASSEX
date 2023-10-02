@@ -56,19 +56,19 @@ BLAZE_WAND:
         damage: 4.0
         cooldown: 5.0
     gem-sockets:
-      - Nether
-      - Nether
+    - Nether
+    - Nether
     name: '&c&lBlaze Wand'
     disable-crafting: true
     lore:
-      - §eAh yeah, that's hot.
+    - §eAh yeah, that's hot.
     crafting:
       shaped:
         '1':
           input:
-            - v nether_star - 1.0..|v magma_cream - 1.0..|v nether_star - 1.0..
-            - v AIR 0 1..|v blaze_rod - 1.0..|v AIR 0 1..
-            - v AIR 0 1..|v blaze_rod - 1.0..|v AIR 0 1..
+          - v nether_star - 1.0..|v magma_cream - 1.0..|v nether_star - 1.0..
+          - v AIR 0 1..|v blaze_rod - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v blaze_rod - 1.0..|v AIR 0 1..
     staff-spirit: NETHER_SPIRIT
     critical-strike-power:
       base: 12.1
@@ -82,22 +82,22 @@ COSMOS_WAND:
   base:
     material: STICK
     gem-sockets:
-      - Blue
+    - Blue
     staff-spirit: VOID_SPIRIT
     attack-speed: 1.9
     crafting:
       shapeless:
         '1':
           input:
-            - m catalyst perfect_ender_pearl 1.0..
-            - v nether_star - 1.0..
-            - m catalyst enchanted_shulker_shell 1.0..
-            - v AIR - 1.0..
-            - v stick - 1.0..
-            - v AIR - 1.0..
-            - v AIR - 1.0..
-            - v stick - 1.0..
-            - v AIR - 1.0..
+          - m catalyst perfect_ender_pearl 1.0..
+          - v nether_star - 1.0..
+          - m catalyst enchanted_shulker_shell 1.0..
+          - v AIR - 1.0..
+          - v stick - 1.0..
+          - v AIR - 1.0..
+          - v AIR - 1.0..
+          - v stick - 1.0..
+          - v AIR - 1.0..
     unbreakable: true
     tier: EPIC
     magic-damage:
@@ -125,7 +125,7 @@ COSMOS_WAND:
         mode: RIGHT_CLICK
         cooldown: 8.0
     lore:
-      - §b§l§o"The stars are yours!"
+    - §b§l§o"The stars are yours!"
     name: §5§lCosmic Wand
     upgrade:
       max: 10
@@ -147,7 +147,7 @@ SPELLCASTER_WAND:
     name: §dSpellcaster Wand
     required-level: 1.0
     required-class:
-      - Mage
+    - Mage
     range: 16.0
     attack-damage:
       base: 6.0
@@ -179,4 +179,14 @@ SPELLCASTER_WAND:
     mana-cost: 3.0
     set: SPELLCASTER
     lore:
-      - §7§o"You're a wizard, Harry."
+    - §7§o"You're a wizard, Harry."
+'1':
+  base:
+    material: IRON_NUGGET
+    ability:
+      ability1:
+        type: SHADOW_VEIL
+        cooldown: 0.0
+        duration: 50.0
+        timer: 50.0
+        mode: RIGHT_CLICK

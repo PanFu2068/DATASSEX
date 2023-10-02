@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 26.104.109.79
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1695917397129
-  login: 1695916063780
-money: '0'
+  logout: 1696255564525
+  login: 1696255085873
+money: '170'
 last-account-name: PanFu
 logoutlocation:
   world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
   world-name: world
-  x: 139.40230380927426
-  y: 47.0
-  z: 84.78652496475404
-  yaw: -0.03741455078125
-  pitch: 24.085407257080078
+  x: 59.8143357990653
+  y: 54.0
+  z: 363.2686689932934
+  yaw: -93.902099609375
+  pitch: 40.136146545410156
 lastlocation:
   world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
   world-name: world
-  x: 119.52526296145103
-  y: 48.0
-  z: 95.60648532850094
-  yaw: 179.8504638671875
-  pitch: -3.1500015258789062
+  x: 138.87913390018767
+  y: 58.0
+  z: 402.8743564834037
+  yaw: -102.55929565429688
+  pitch: 29.19575309753418

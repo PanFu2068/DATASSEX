@@ -32,14 +32,14 @@ CRACK_PICKAXE:
     pickaxe-power: 4.0
     bouncing-crack: true
     lore:
-      - §cWill break adjacent blocks!
+    - §cWill break adjacent blocks!
 AUTOSMELT_PICKAXE:
   base:
     material: NETHERITE_PICKAXE
     name: §cAutosmelt pickaxe
     lore:
-      - §7Will §csmelt§7 ores, like it
-      - §7implies. Works with enchantments.
+    - §7Will §csmelt§7 ores, like it
+    - §7implies. Works with enchantments.
     attack-damage: 7.5
     attack-speed: 1.6
     tier: UNCOMMON
@@ -50,17 +50,49 @@ AUTOSMELT_PICKAXE:
       shaped:
         '1':
           input:
-            - v magma_cream - 1.0..|v netherite_block - 1.0..|v magma_cream - 1.0..
-            - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
-            - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v magma_cream - 1.0..|v netherite_block - 1.0..|v magma_cream - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
 UNBREAKABLE_SHEARS:
   base:
     material: SHEARS
     enchants:
       silk_touch: 1.0
     lore:
-      - §7If you're tired to craft new shears,
-      - §7try out this one! It can also
-      - §7pick up §9glass§7 or §2grass§7!
+    - §7If you're tired to craft new shears,
+    - §7try out this one! It can also
+    - §7pick up §9glass§7 or §2grass§7!
     tier: UNCOMMON
     required-level: 5.0
+PICK:
+  base:
+    material: NETHERITE_PICKAXE
+    enchants:
+      efficiency: 20.0
+      fortune: 15.0
+    hide-enchants: true
+    name: '&b&l&k||| &a&lThiên &e&lThần &6&lSa &5&lNgã &b&l&k|||'
+    lore:
+    - '&f &f &f > &a &a Enchantments:'
+    - '&e&l+ Hiệu suất: XX'
+    - '&e&l+ Gia Tài: XV'
+    - '&e&l+ Độ bền: &c&lKhông Thể Hỏng'
+    - '&f &f &f > &a &a Effects:'
+    - '&e&l+ Hiệu Năng: II'
+    - '&e&l+ Tốc Độ: IV'
+    - '&e&l+ Hấp Thụ: V'
+    - '&e&l+ Hồi Máu: III'
+    - '&f &f &f > &a &a Informations:'
+    - '&f+ &bCúp được tạo bởi sự tha hóa của những vị thần'
+    - '&f+ &bCúp chỉ dành cho &4Owner/Admin &bcủa server'
+    - '&f+ &bKhông được làm mất, làm mất sẽ không được đền'
+    tier: UNIQUE
+    perm-effects:
+      FAST_DIGGING: 2.0
+      SPEED: 4.0
+      ABSORPTION: 5.0
+      HEAL: 3.0
+    unbreakable: true
+ITEM_ID:
+  base:
+    material: IRON_PICKAXE

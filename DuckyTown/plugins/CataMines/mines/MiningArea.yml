@@ -167,15 +167,7 @@ Mine:
     lootTable: []
   resetMode: TIME
   resetDelay: 600
-<<<<<<< HEAD:duckytown 6h36 2509/plugins/CataMines/mines/MiningArea.yml
-<<<<<<< HEAD
-  countdown: 290
-=======
-  countdown: 71
->>>>>>> d78642bf5ca7f5876e57e05d2283ad369d0fa509
-=======
   countdown: 486
->>>>>>> c77550cfc45bca6614a371c542fd76900fc62e2f:DuckyTown/plugins/CataMines/mines/MiningArea.yml
   resetPercentage: 0.0
   replaceMode: false
   teleportPlayers: true

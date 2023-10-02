@@ -27,8 +27,8 @@ DRAGON_HELMET:
     enchants:
       fire_protection: 4.0
     lore:
-      - §c§oThis powerful armor is taken from
-      - §c§odragon scales.
+    - §c§oThis powerful armor is taken from
+    - §c§odragon scales.
     required-level: 12.0
     block-rating:
       base: 4.0
@@ -36,8 +36,8 @@ DRAGON_HELMET:
       spread: 0.02
       max-spread: 0.08
     gem-sockets:
-      - Magenta
-      - Black
+    - Magenta
+    - Black
     set: DRAGON
 DRAGON_CHESTPLATE:
   base:
@@ -68,8 +68,8 @@ DRAGON_CHESTPLATE:
     enchants:
       fire_protection: 4.0
     lore:
-      - §c§oThis powerful armor is taken from
-      - §c§odragon scales.
+    - §c§oThis powerful armor is taken from
+    - §c§odragon scales.
     required-level: 12.0
     block-rating:
       base: 5.0
@@ -77,8 +77,8 @@ DRAGON_CHESTPLATE:
       spread: 0.02
       max-spread: 0.08
     gem-sockets:
-      - Magenta
-      - Black
+    - Magenta
+    - Black
     set: DRAGON
 DRAGON_LEGGINGS:
   base:
@@ -109,8 +109,8 @@ DRAGON_LEGGINGS:
     enchants:
       fire_protection: 4.0
     lore:
-      - §c§oThis powerful armor is taken from
-      - §c§odragon scales.
+    - §c§oThis powerful armor is taken from
+    - §c§odragon scales.
     required-level: 12.0
     block-rating:
       base: 4.5
@@ -118,8 +118,8 @@ DRAGON_LEGGINGS:
       spread: 0.02
       max-spread: 0.08
     gem-sockets:
-      - Magenta
-      - Black
+    - Magenta
+    - Black
     set: DRAGON
 DRAGON_BOOTS:
   base:
@@ -150,8 +150,8 @@ DRAGON_BOOTS:
     enchants:
       fire_protection: 4.0
     lore:
-      - §c§oThis powerful armor is taken from
-      - §c§odragon scales.
+    - §c§oThis powerful armor is taken from
+    - §c§odragon scales.
     required-level: 12.0
     block-rating:
       base: 4.0
@@ -159,17 +159,17 @@ DRAGON_BOOTS:
       spread: 0.02
       max-spread: 0.08
     gem-sockets:
-      - Magenta
-      - Black
+    - Magenta
+    - Black
     set: DRAGON
 SPELLCASTER_HELMET:
   base:
     material: LEATHER_HELMET
     name: §dSpellcaster Helmet
     lore:
-      - §d§lSuits very well for mages!
+    - §d§lSuits very well for mages!
     required-class:
-      - Mage
+    - Mage
     required-level: 1.0
     block-power:
       base: 10.0
@@ -200,9 +200,9 @@ SPELLCASTER_CHESTPLATE:
     material: LEATHER_CHESTPLATE
     name: §dSpellcaster Chestplate
     lore:
-      - §d§lSuits very well for mages!
+    - §d§lSuits very well for mages!
     required-class:
-      - Mage
+    - Mage
     required-level: 1.0
     block-power:
       base: 15.0
@@ -233,9 +233,9 @@ SPELLCASTER_LEGGINGS:
     material: LEATHER_LEGGINGS
     name: §dSpellcaster Leggings
     lore:
-      - §d§lSuits very well for mages!
+    - §d§lSuits very well for mages!
     required-class:
-      - Mage
+    - Mage
     required-level: 1.0
     block-power:
       base: 12.0
@@ -266,9 +266,9 @@ SPELLCASTER_BOOTS:
     material: LEATHER_BOOTS
     name: §dSpellcaster Boots
     lore:
-      - §d§lSuits very well for mages!
+    - §d§lSuits very well for mages!
     required-class:
-      - Mage
+    - Mage
     required-level: 1.0
     block-power:
       base: 10.0
@@ -299,10 +299,10 @@ OMNIELEMENTAL_HELMET:
     material: LEATHER_HELMET
     required-level: 15.0
     lore:
-      - §bDon't limit yourself to one element.
-      - §cIt will be downgraded on death or
-      - §cupon breaking.
-      - §9Gives Night Vision when worn.
+    - §bDon't limit yourself to one element.
+    - §cIt will be downgraded on death or
+    - §cupon breaking.
+    - §9Gives Night Vision when worn.
     enchants:
       luck_of_the_sea: 1.0
     hide-enchants: true
@@ -335,8 +335,8 @@ OMNIELEMENTAL_HELMET:
     death-downgrade: true
     death-downgrade-chance: 100.0
     gem-sockets:
-      - Rainbow
-      - Rainbow
+    - Rainbow
+    - Rainbow
     perm-effects:
       NIGHT_VISION: 1.0
     tier: VERY_RARE
@@ -346,10 +346,10 @@ OMNIELEMENTAL_CHESTPLATE:
     material: LEATHER_CHESTPLATE
     required-level: 15.0
     lore:
-      - §bDon't limit yourself to one element.
-      - §cIt will be downgraded on death or
-      - §cupon breaking.
-      - §9Gives Resistance I when worn.
+    - §bDon't limit yourself to one element.
+    - §cIt will be downgraded on death or
+    - §cupon breaking.
+    - §9Gives Resistance I when worn.
     enchants:
       luck_of_the_sea: 1.0
     hide-enchants: true
@@ -382,8 +382,8 @@ OMNIELEMENTAL_CHESTPLATE:
     death-downgrade: true
     death-downgrade-chance: 100.0
     gem-sockets:
-      - Rainbow
-      - Rainbow
+    - Rainbow
+    - Rainbow
     perm-effects:
       DAMAGE_RESISTANCE: 1.0
     tier: VERY_RARE
@@ -393,10 +393,10 @@ OMNIELEMENTAL_LEGGINGS:
     material: LEATHER_LEGGINGS
     required-level: 15.0
     lore:
-      - §bDon't limit yourself to one element.
-      - §cIt will be downgraded on death or
-      - §cupon breaking.
-      - §9Gives Speed I when worn.
+    - §bDon't limit yourself to one element.
+    - §cIt will be downgraded on death or
+    - §cupon breaking.
+    - §9Gives Speed I when worn.
     enchants:
       luck_of_the_sea: 1.0
     hide-enchants: true
@@ -429,8 +429,8 @@ OMNIELEMENTAL_LEGGINGS:
     death-downgrade: true
     death-downgrade-chance: 100.0
     gem-sockets:
-      - Rainbow
-      - Rainbow
+    - Rainbow
+    - Rainbow
     perm-effects:
       SPEED: 1.0
     tier: VERY_RARE
@@ -440,10 +440,10 @@ OMNIELEMENTAL_BOOTS:
     material: LEATHER_BOOTS
     required-level: 15.0
     lore:
-      - §bDon't limit yourself to one element.
-      - §cIt will be downgraded on death or
-      - §cupon breaking.
-      - §9Gives Jump Boost I when worn.
+    - §bDon't limit yourself to one element.
+    - §cIt will be downgraded on death or
+    - §cupon breaking.
+    - §9Gives Jump Boost I when worn.
     enchants:
       luck_of_the_sea: 1.0
     hide-enchants: true
@@ -476,8 +476,8 @@ OMNIELEMENTAL_BOOTS:
     death-downgrade: true
     death-downgrade-chance: 100.0
     gem-sockets:
-      - Rainbow
-      - Rainbow
+    - Rainbow
+    - Rainbow
     perm-effects:
       JUMP: 1.0
     tier: VERY_RARE
@@ -533,8 +533,8 @@ HELMET_OF_THE_SEA:
       NIGHT_VISION: 1.0
       WATER_BREATHING: 1.0
     lore:
-      - §3Will only work when §9§lUNDERWATER§3.
-      - §3Gives §9Night Vision §3and §9Water Breathing§3.
+    - §3Will only work when §9§lUNDERWATER§3.
+    - §3Gives §9Night Vision §3and §9Water Breathing§3.
 UNDEADSLAYER_HELMET:
   base:
     material: NETHERITE_HELMET
@@ -545,9 +545,9 @@ MOON_BOOTS:
   base:
     material: DIAMOND_BOOTS
     lore:
-      - §bMoon boots will simulate being on the moon!
-      - §7Gives §3Jump Boost II§7 when worn.
-      - §cWill only work in "the end" biome.
+    - §bMoon boots will simulate being on the moon!
+    - §7Gives §3Jump Boost II§7 when worn.
+    - §cWill only work in "the end" biome.
     max-durability: 2650.0
     name: §b§lMoon Boots
     tier: UNIQUE
@@ -557,14 +557,14 @@ MOON_BOOTS:
     perm-effects:
       JUMP: 2.0
     required-biomes:
-      - the_end
+    - the_end
 CONTROL_DEVICES:
   base:
     material: LEATHER_HELMET
     max-durability: 15000.0
     name: §d§lControl Devices
     dye-color: 255 102 204
-    ability: { }
+    ability: {}
     set: PSYCHIC
     perm-effects:
       DAMAGE_RESISTANCE: 2.0
@@ -573,9 +573,9 @@ CONTROL_DEVICES:
       FIRE_RESISTANCE: 1.0
       INCREASE_DAMAGE: 2.0
     required-class:
-      - Mage
+    - Mage
     lore:
-      - §7To keep your powers in check...
+    - §7To keep your powers in check...
     armor-toughness: 2.0
     armor: 7.0
     tier: MAGICAL
@@ -601,7 +601,7 @@ UNDEAD_SLAYER_HELMET:
       thunder:
         defense: 25.0
     lore:
-      - §cThey'll fear you.
+    - §cThey'll fear you.
     damage-reduction: 5.0
     physical-damage-reduction: 8.0
     magic-damage-reduction: 20.0
@@ -631,7 +631,7 @@ UNDEAD_SLAYER_CHESTPLATE:
       thunder:
         defense: 50.0
     lore:
-      - §cThey'll fear you.
+    - §cThey'll fear you.
     damage-reduction: 10.0
     physical-damage-reduction: 15.0
     magic-damage-reduction: 50.0
@@ -659,7 +659,7 @@ UNDEAD_SLAYER_LEGGINGS:
       thunder:
         defense: 30.0
     lore:
-      - §cThey'll fear you.
+    - §cThey'll fear you.
     damage-reduction: 8.0
     physical-damage-reduction: 10.0
     magic-damage-reduction: 30.0
@@ -688,7 +688,7 @@ UNDEAD_SLAYER_BOOTS:
       thunder:
         defense: 25.0
     lore:
-      - §cThey'll fear you.
+    - §cThey'll fear you.
     damage-reduction: 5.0
     physical-damage-reduction: 8.0
     magic-damage-reduction: 20.0
@@ -715,8 +715,8 @@ MYTHRIL_CHAINMAIL:
       earth:
         defense: 6.4
     gem-sockets:
-      - Red
-      - Blue
+    - Red
+    - Blue
     required-level: 4.0
     tier: UNCOMMON
 STEEL_HELMET:
@@ -734,25 +734,25 @@ STEEL_HELMET:
     name: '&fSteel Helm'
     armor: 2.5
     lore:
-      - '&7Slightly better than an iron helmet.'
+    - '&7Slightly better than an iron helmet.'
     tier: COMMON
     knockback-resistance:
       base: 0.02
       spread: 0.11
       max-spread: 0.33
     gem-sockets:
-      - Green
+    - Green
     set: STEEL
     crafting:
       shaped:
         '1':
-          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
-          - AIR AIR AIR
+        - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - AIR AIR AIR
         '2':
-          - AIR AIR AIR
-          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - AIR AIR AIR
+        - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
 STEEL_CHESTPLATE:
   base:
     material: IRON_CHESTPLATE
@@ -768,21 +768,21 @@ STEEL_CHESTPLATE:
     name: '&fSteel Chestplate'
     armor: 6.5
     lore:
-      - '&7Slightly better than an iron chestplate.'
+    - '&7Slightly better than an iron chestplate.'
     tier: COMMON
     knockback-resistance:
       base: 0.02
       spread: 0.11
       max-spread: 0.33
     gem-sockets:
-      - Blue
+    - Blue
     set: STEEL
     crafting:
       shaped:
         '1':
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
 STEEL_LEGGINGS:
   base:
     material: IRON_LEGGINGS
@@ -798,21 +798,21 @@ STEEL_LEGGINGS:
     name: '&fSteel Leggings'
     armor: 5.5
     lore:
-      - '&7Slightly better than iron leggings.'
+    - '&7Slightly better than iron leggings.'
     tier: COMMON
     knockback-resistance:
       base: 0.02
       spread: 0.11
       max-spread: 0.33
     gem-sockets:
-      - Blue
+    - Blue
     set: STEEL
     crafting:
       shaped:
         '1':
-          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
 STEEL_BOOTS:
   base:
     material: IRON_BOOTS
@@ -828,25 +828,25 @@ STEEL_BOOTS:
     name: '&fSteel Boots'
     armor: 2.5
     lore:
-      - '&7Slightly better than iron boots.'
+    - '&7Slightly better than iron boots.'
     tier: COMMON
     knockback-resistance:
       base: 0.02
       spread: 0.11
       max-spread: 0.33
     gem-sockets:
-      - Green
+    - Green
     set: STEEL
     crafting:
       shaped:
         '2':
-          - AIR AIR AIR
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - AIR AIR AIR
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
         '1':
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
-          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
-          - AIR AIR AIR
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        - AIR AIR AIR
 CURSED_WITHER_SKULL:
   base:
     material: WITHER_SKELETON_SKULL
@@ -854,15 +854,15 @@ CURSED_WITHER_SKULL:
     required-level: 30.0
     tier: UNIQUE
     gem-sockets:
-      - Red
-      - Blue
+    - Red
+    - Blue
     armor: 3.0
     armor-toughness: 2.0
     perm-effects:
       ABSORPTION: 1
     lore:
-      - '&7Grants a permanent &62'
-      - '&6hearts &7absorption shield.'
+    - '&7Grants a permanent &62'
+    - '&6hearts &7absorption shield.'
     durability: 1.0
     element:
       thunder:
@@ -872,9 +872,9 @@ CURSED_WITHER_SKULL:
     crafting:
       shaped:
         '1':
-          - BONE BONE BONE
-          - BONE MATERIAL.UNIQUE_WEAPON_ESSENCE BONE
-          - BONE BONE BONE
+        - BONE BONE BONE
+        - BONE MATERIAL.UNIQUE_WEAPON_ESSENCE BONE
+        - BONE BONE BONE
 HUGE_MOTHRON_WINGS:
   base:
     material: ELYTRA
@@ -919,9 +919,9 @@ ARCANE_CHESTPLATE:
       type: GALAXY
       particle: SPELL_WITCH
     lore:
-      - '&2Enemies trying to attack you'
-      - '&2will be violently inflicted a wither'
-      - '&2effect for a short period of time.'
+    - '&2Enemies trying to attack you'
+    - '&2will be violently inflicted a wither'
+    - '&2effect for a short period of time.'
     set: ARCANE
 ARCANE_LEGGINGS:
   base:
@@ -937,8 +937,8 @@ ARCANE_LEGGINGS:
       type: GALAXY
       particle: SPELL_WITCH
     gem-sockets:
-      - Blue
-      - Green
+    - Blue
+    - Green
     set: ARCANE
 ARCANE_BOOTS:
   base:
@@ -954,8 +954,8 @@ ARCANE_BOOTS:
       type: GALAXY
       particle: SPELL_WITCH
     lore:
-      - '&2Greatly increases your'
-      - '&2fall damage reduction.'
+    - '&2Greatly increases your'
+    - '&2fall damage reduction.'
     fall-damage-reduction:
       base: 45.0
       spread: 0.033
@@ -968,7 +968,7 @@ GINGERBREAD_HELM:
     name: '&cGingerbread Helmet'
     required-level: 2.0
     lore:
-      - '&eEarned during X-Mas 2018!'
+    - '&eEarned during X-Mas 2018!'
     set: GINGERBREAD
     parry-rating: 5.0
     max-health: 2.0
@@ -987,7 +987,7 @@ GINGERBREAD_TUNIC:
     name: '&cGingerbread Tunic'
     required-level: 2.0
     lore:
-      - '&eEarned during X-Mas 2018!'
+    - '&eEarned during X-Mas 2018!'
     set: GINGERBREAD
     parry-rating: 5.0
     max-health: 2.0
@@ -1006,7 +1006,7 @@ GINGERBREAD_LEGGINGS:
     name: '&cGingerbread Leggings'
     required-level: 2.0
     lore:
-      - '&eEarned during X-Mas 2018!'
+    - '&eEarned during X-Mas 2018!'
     set: GINGERBREAD
     parry-rating: 5.0
     max-health: 2.0
@@ -1025,7 +1025,7 @@ GINGERBREAD_BOOTS:
     name: '&cGingerbread Boots'
     required-level: 2.0
     lore:
-      - '&eEarned during X-Mas 2018!'
+    - '&eEarned during X-Mas 2018!'
     set: GINGERBREAD
     parry-rating: 5.0
     max-health: 2.0
@@ -1052,9 +1052,9 @@ DEAD_PHARAOH_HELMET:
     armor: 4.0
     undead-damage: 30.0
     lore:
-      - '&7This powerful forgotten helmet'
-      - '&7will greatly increase your power'
-      - '&7against undead creatures.'
+    - '&7This powerful forgotten helmet'
+    - '&7will greatly increase your power'
+    - '&7against undead creatures.'
     required-level: 9.0
 MOSSY_SKELETON_SKULL:
   base:
@@ -1085,10 +1085,10 @@ SKELETON_CROWN:
         damage: 3.0
         cooldown: 9.0
     lore:
-      - '&7Every 9 seconds, summons a'
-      - '&cdeadly meteor&7 at your attacker,'
-      - '&7dealing &c4&7 damage while briefly'
-      - '&7knocking them away.'
+    - '&7Every 9 seconds, summons a'
+    - '&cdeadly meteor&7 at your attacker,'
+    - '&7dealing &c4&7 damage while briefly'
+    - '&7knocking them away.'
     disable-interaction: true
 WYVERN_CAP:
   base:
@@ -1103,17 +1103,17 @@ WYVERN_CAP:
     perm-effects:
       JUMP: 2
     lore:
-      - '&7Grants permanent jump boost II'
+    - '&7Grants permanent jump boost II'
     crafting:
       shaped:
         '1':
-          - TOME.WYVERN_FEATHER TOME.WYVERN_SOUL TOME.WYVERN_FEATHER
-          - TOME.WYVERN_FEATHER AIR TOME.WYVERN_FEATHER
-          - AIR AIR AIR
+        - TOME.WYVERN_FEATHER TOME.WYVERN_SOUL TOME.WYVERN_FEATHER
+        - TOME.WYVERN_FEATHER AIR TOME.WYVERN_FEATHER
+        - AIR AIR AIR
         '2':
-          - AIR AIR AIR
-          - TOME.WYVERN_FEATHER TOME.WYVERN_SOUL TOME.WYVERN_FEATHER
-          - TOME.WYVERN_FEATHER AIR TOME.WYVERN_FEATHER
+        - AIR AIR AIR
+        - TOME.WYVERN_FEATHER TOME.WYVERN_SOUL TOME.WYVERN_FEATHER
+        - TOME.WYVERN_FEATHER AIR TOME.WYVERN_FEATHER
 TRAVEL_BOOTS:
   base:
     material: LEATHER_BOOTS
@@ -1145,7 +1145,7 @@ SHADOWVEIL:
         duration: 5.0
         cooldown: 20.0
     lore:
-      - '&7&oObtained from the depths of bedrock'
+    - '&7&oObtained from the depths of bedrock'
     max-health: 10.0
     armor: 3.0
     armor-toughness: 2.0
@@ -1153,7 +1153,7 @@ SHADOWROBE:
   base:
     material: LEATHER_CHESTPLATE
     lore:
-      - '&7&oObtained from the depths of bedrock'
+    - '&7&oObtained from the depths of bedrock'
     name: '&cShadow Robe'
     max-durability: 1000.0
     disable-repairing: true
@@ -1180,7 +1180,7 @@ SHADOWLEGGINGS:
   base:
     material: LEATHER_LEGGINGS
     lore:
-      - '&7&oObtained from the depths of bedrock'
+    - '&7&oObtained from the depths of bedrock'
     name: '&cShadow Leggings'
     enchants:
       unbreaking: 3
@@ -1199,7 +1199,7 @@ SHADOWBOOTS:
     material: LEATHER_BOOTS
     name: '&cShadow Boots'
     lore:
-      - '&7&oObtained from the depths of bedrock'
+    - '&7&oObtained from the depths of bedrock'
     enchants:
       unbreaking: 3
       protection: 4
@@ -1214,3 +1214,6 @@ SHADOWBOOTS:
     max-health: 8.0
     movement-speed: 0.01
     dye-color: 0 0 0
+ITEM_ID:
+  base:
+    material: IRON_CHESTPLATE

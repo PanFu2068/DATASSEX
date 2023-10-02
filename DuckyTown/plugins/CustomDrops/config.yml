@@ -1,0 +1,205 @@
+CustomDropsRevamped:
+  dropId: 0
+  afkDrops: false
+  lootingModifier:
+    isAdditive: false
+    addition: 5.0
+    multiplication: 1.5
+  fortuneModifier:
+    isAdditive: false
+    addition: 5.0
+    multiplication: 1.5
+  editedMobs:
+    ALLAY:
+      vanillaDrops: true
+    AXOLOTL:
+      vanillaDrops: true
+    BAT:
+      vanillaDrops: true
+    BEE:
+      vanillaDrops: true
+    BLAZE:
+      vanillaDrops: true
+    CAT:
+      vanillaDrops: true
+    CAVE_SPIDER:
+      vanillaDrops: true
+    CHICKEN:
+      vanillaDrops: true
+    COD:
+      vanillaDrops: true
+    COW:
+      vanillaDrops: true
+    CREEPER:
+      vanillaDrops: true
+    DOLPHIN:
+      vanillaDrops: true
+    DONKEY:
+      vanillaDrops: true
+    DROWNED:
+      vanillaDrops: true
+    ELDER_GUARDIAN:
+      vanillaDrops: true
+    ENDER_DRAGON:
+      vanillaDrops: true
+    ENDERMAN:
+      vanillaDrops: true
+    ENDERMITE:
+      vanillaDrops: true
+    EVOKER:
+      vanillaDrops: true
+    FOX:
+      vanillaDrops: true
+    FROG:
+      vanillaDrops: true
+    GHAST:
+      vanillaDrops: true
+    GIANT:
+      vanillaDrops: true
+    GLOW_SQUID:
+      vanillaDrops: true
+    GOAT:
+      vanillaDrops: true
+    GUARDIAN:
+      vanillaDrops: true
+    HOGLIN:
+      vanillaDrops: true
+    HORSE:
+      vanillaDrops: true
+    HUSK:
+      vanillaDrops: true
+    IRON_GOLEM:
+      vanillaDrops: true
+    LLAMA:
+      vanillaDrops: true
+    MAGMA_CUBE:
+      vanillaDrops: true
+    MULE:
+      vanillaDrops: true
+    MUSHROOM_COW:
+      vanillaDrops: true
+    OCELOT:
+      vanillaDrops: true
+    PANDA:
+      vanillaDrops: true
+    PARROT:
+      vanillaDrops: true
+    PHANTOM:
+      vanillaDrops: true
+    PIG:
+      vanillaDrops: true
+    PIGLIN:
+      vanillaDrops: true
+    PIGLIN_BRUTE:
+      vanillaDrops: true
+    PILLAGER:
+      vanillaDrops: true
+    POLAR_BEAR:
+      vanillaDrops: true
+    PUFFERFISH:
+      vanillaDrops: true
+    RABBIT:
+      vanillaDrops: true
+    RAVAGER:
+      vanillaDrops: true
+    SALMON:
+      vanillaDrops: true
+    SHEEP:
+      vanillaDrops: true
+    SHULKER:
+      vanillaDrops: true
+    SILVERFISH:
+      vanillaDrops: true
+    SKELETON:
+      vanillaDrops: true
+    SKELETON_HORSE:
+      vanillaDrops: true
+    SLIME:
+      vanillaDrops: true
+    SNOWMAN:
+      vanillaDrops: true
+    SPIDER:
+      vanillaDrops: true
+    SQUID:
+      vanillaDrops: true
+    STRAY:
+      vanillaDrops: true
+    STRIDER:
+      vanillaDrops: true
+    TADPOLE:
+      vanillaDrops: true
+    TRADER_LLAMA:
+      vanillaDrops: true
+    TROPICAL_FISH:
+      vanillaDrops: true
+    TURTLE:
+      vanillaDrops: true
+    VEX:
+      vanillaDrops: true
+    VILLAGER:
+      vanillaDrops: true
+    VINDICATOR:
+      vanillaDrops: true
+    WANDERING_TRADER:
+      vanillaDrops: true
+    WARDEN:
+      vanillaDrops: true
+    WITCH:
+      vanillaDrops: true
+    WITHER:
+      vanillaDrops: true
+    WITHER_SKELETON:
+      vanillaDrops: true
+    WOLF:
+      vanillaDrops: true
+    ZOGLIN:
+      vanillaDrops: true
+    ZOMBIE:
+      vanillaDrops: false
+    ZOMBIE_HORSE:
+      vanillaDrops: true
+    ZOMBIE_VILLAGER:
+      vanillaDrops: true
+    ZOMBIFIED_PIGLIN:
+      vanillaDrops: true
+  defaultDrop:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: STONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"text":"New Item"}],"text":""}'
+    chance: 0.1
+    color: LIME
+    shape: BURST
+    effect: true
+    defaultDrops: true
+    spawnerDrops: false
+    eggDrops: false
+    placedDrops: false
+    conditions:
+      mobName: josh
+      checkMobName: false
+      itemUsed:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"Drops sword"}],"text":""}'
+      checkItemUsed: false
+      checkItemUsedMeta: false
+      permission: droppermission.get
+      checkPermission: false
+      checkBannedWorlds: false
+      minPlayers: 1
+      checkMinPlayers: false
+      maxPlayers: 10
+      checkMaxPlayers: false
+      lootingModifier: false
+      fortuneModifier: false
+      checkSilkTouch: false
+      checkNoSilkTouch: false

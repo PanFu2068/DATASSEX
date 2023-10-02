@@ -1,16 +1,11 @@
 # === Skript's variable storage ===
 # Please do not modify this file manually!
 #
-# version: 2.7.0
+# version: 2.7.1
 
 player::login::loggedin::2c8e3283-17cc-3b57-b589-ce2a3eb0a42c, boolean, 01
-<<<<<<< HEAD
-player::login::loggedin::8c76f90d-6bb7-32f8-b9c9-f13ee5d9ad17, boolean, 01
-player::login::loggedin::a81536ca-871c-3712-9bac-ec869188de9d, boolean, 01
-=======
 player::login::loggedin::a81536ca-871c-3712-9bac-ec869188de9d, boolean, 01
 player::login::loggedin::f2efca04-1352-3431-9de6-9c9bfd24c0f7, boolean, 01
->>>>>>> d78642bf5ca7f5876e57e05d2283ad369d0fa509
 player::login::password::0a8131b2-0f51-3dae-a389-3ccebd096b58, string, 800B6D696E687469656E326B39
 player::login::password::2c8e3283-17cc-3b57-b589-ce2a3eb0a42c, string, 800A326B3034697362657374
 player::login::password::8a085b1f-c46c-3a72-a434-5e51de4b64c6, string, 8006363838323338
