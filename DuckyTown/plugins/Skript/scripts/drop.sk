@@ -1,0 +1,4 @@
+on break:
+  set {_drops::*} to drops of block with player's tool
+  clear drops
+  give player {_drops::*}

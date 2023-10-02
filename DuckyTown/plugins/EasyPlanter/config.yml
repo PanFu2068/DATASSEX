@@ -1,0 +1,318 @@
+Reward-Type: exp
+QuickGrow: true
+Crops:
+  Wheat:
+    Min-Drop: 1
+    Max-Drop: 8
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  Carrot:
+    Min-Drop: 1
+    Max-Drop: 6
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  Potato:
+    Min-Drop: 1
+    Max-Drop: 6
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  Beetroot:
+    Min-Drop: 1
+    Max-Drop: 4
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  NetherWart:
+    Min-Drop: 1
+    Max-Drop: 5
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  Pumpkin:
+    Min-Drop: 1
+    Max-Drop: 5
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  Melon:
+    Min-Drop: 1
+    Max-Drop: 5
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  SugarCane:
+    Min-Drop: 1
+    Max-Drop: 5
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  Bamboo:
+    Min-Drop: 1
+    Max-Drop: 5
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+  SweetBerries:
+    Min-Drop: 1
+    Max-Drop: 5
+    MileStones:
+      '1':
+        Min-EXP: 25
+        Max-EXP: 50
+        Money: 50
+        Goal: 100
+      '2':
+        Min-EXP: 50
+        Max-EXP: 100
+        Money: 50
+        Goal: 250
+      '3':
+        Min-EXP: 100
+        Max-EXP: 200
+        Money: 50
+        Goal: 500
+      '4':
+        Min-EXP: 200
+        Max-EXP: 300
+        Money: 50
+        Goal: 750
+      '5':
+        Min-EXP: 300
+        Max-EXP: 500
+        Money: 50
+        Goal: 1000
+Player-Stats:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7:
+    Player: PanFu
+    Wheat: 0
+    Carrot: 0
+    Potato: 67
+    Beetroot: 0
+    Netherwart: 0
+    Pumpkin: 0
+    Melon: 0
+    SugarCane: 0
+    Bamboo: 0
+    SweetBerries: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4:
+    Player: zriptobin
+    Wheat: 0
+    Carrot: 0
+    Potato: 0
+    Beetroot: 0
+    Netherwart: 0
+    Pumpkin: 0
+    Melon: 0
+    SugarCane: 0
+    Bamboo: 0
+    SweetBerries: 0

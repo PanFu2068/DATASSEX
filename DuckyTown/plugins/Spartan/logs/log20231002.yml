@@ -1,0 +1,25 @@
+(2)[2023/10/02 20:13:53:
+  499705300]: '[Spartan Phase 522.1/1521-616548/359439-362191] zriptobin won the fight
+    against PanFu: outcome|kill, duration|8855, hits|9|9, hit-time-average|8847|8848,
+    reach-average|0.22199706306226025|0.26535537982174007, max-cps|1|4, yaw-rate|0.0012443421|0.008252089,
+    pitch-rate|5.649516E-4|0.23165788, vertical-velocity| | , horizontal-velocity|
+    | max-hit-combo|1|1'
+(3)[2023/10/02 20:23:26:
+  935928500]: PanFu found 1 diamond on 57, 49, 380, normal
+(4)[2023/10/02 20:24:40:
+  303132100]: zriptobin found 1 diamond on 60, 51, 380, normal
+(5)[2023/10/02 20:24:51:
+  929756300]: '[Spartan Phase 522.1/1521-616548/359439-362191] zriptobin failed FastBreak
+    (VL: 1) [(Version: Paper 1.19), (C-V: -2) (Silent: false), (Ping: 1116ms), (TPS:
+    19.845), (Hacker: false), (Online: 2), (XYZ: 60 49 382), (type: delay, time: 1,
+    seconds: 0.001, original-limit: 8050, limit: 7800, difference: 7799, block: purpur-block,
+    item: nether-bricks, enchantments: none, effects: [fast/digging-2, heal-3, absorption-5,
+    speed-4])]'
+(6)[2023/10/02 20:25:38:
+  811582000]: zriptobin found 1 diamond on 67, 52, 378, normal
+(7)[2023/10/02 20:27:01:
+  734275600]: '[Spartan Phase 522.1/1521-616548/359439-362191] zriptobin failed MorePackets
+    (VL: 1) [(Version: Paper 1.19), (C-V: -4) (Silent: false), (Ping: 1141ms), (TPS:
+    19.817), (Hacker: false), (Online: 2), (XYZ: 60 52 377), (type: instant, overall:
+    7.147846792546274, last-tick: 0, ticks-requirement: 15, decreased-requirement:
+    false)]'

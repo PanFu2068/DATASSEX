@@ -1,0 +1,199 @@
+panels:
+  panel-1:
+    perm: default
+    rows: 6
+    title: '&8Generated panel-1'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '2':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '4':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '6':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '11':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '12':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '14':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '15':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '17':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '18':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '19':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '20':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '21':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '22':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '23':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '24':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '25':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '26':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '27':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '28':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '29':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '30':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '31':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '32':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '33':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '34':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '35':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '36':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '38':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '39':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '41':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '42':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '44':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '45':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '46':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '47':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '48':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '49':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '50':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '51':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '52':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '53':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
