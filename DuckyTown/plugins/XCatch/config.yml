@@ -1,0 +1,252 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                Simple Configuration                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The number of flags a player has to set off before sending an alert to everyone with the 'xcatch.alert' permission
+# 0 for off
+alert-flags: 1
+
+# The number of flags a player has to set off before automatically banning that player
+# 0 for off
+ban-flags: 0
+
+# The durations a player gets banned for, you can give multiple lengths for how long they should be banned
+# depending on how many previous bans they have
+# s: second
+# m: minute
+# h: hour
+# d: day
+# w: week
+# mo: month
+# y: year
+# 0 for forever
+ban-durations: [ '1d', '1w', '1mo', '1y', '0' ]
+
+# The minimum amount of a type of ore a player has to mine before being able to be flagged
+# Format: MATERIAL: AMOUNT
+# List of allowed materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+rare-ores:
+  - ANCIENT_DEBRIS: 8
+  - EMERALD_ORE: 12
+  - DEEPSLATE_EMERALD_ORE: 12
+  - DIAMOND_ORE: 16
+  - DEEPSLATE_DIAMOND_ORE: 16
+  - GOLD_ORE: 24
+  - DEEPSLATE_GOLD_ORE: 24
+  - IRON_ORE: 32
+  - DEEPSLATE_IRON_ORE: 32
+  - REDSTONE_ORE: 32
+  - DEEPSLATE_REDSTONE_ORE: 32
+  - LAPIS_ORE: 32
+  - DEEPSLATE_LAPIS_ORE: 32
+  - COPPER_ORE: 48
+  - DEEPSLATE_COPPER_ORE: 48
+  - NETHER_GOLD_ORE: 48
+
+# Everything above this height will not be counted
+# Can reduce false flags of people mining ores in their base
+max-height: 256
+
+# The date format used, for more info see https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+date-format: "dd-MM-yyyy 'at' HH:mm z"
+
+# Should XCatch check for updates at startup? (using GitHub API)
+check-update: true
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Commands                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The command executed when you click a flag message
+# Available variables:
+# {player}: the player who got flagged
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+alert-click-command: 'tp {player}'
+
+# The command executed when you click a flag inside the flags gui
+# Available variables:
+# {player}: the player who got flagged
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+view-click-command: 'xcatch tp {world} {x} {y} {z}'
+
+# The commands XCatch should execute when a player has been flagged
+# Number specifies how many flags a player must have
+# Ranges can be done with 1-3
+# Available variables:
+# {player}: the player who got flagged
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+# Example:
+# commands:
+#   - '1':
+#       - 'msg {player} first flag, first warning'
+#   - '2-3':
+#       - 'msg {player} you have been flagged {flags} times'
+#       - 'say {player} is xraying, shame on them
+commands:
+  - '0':
+      - 'This is a placeholder, remove this if you will actually use commands'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Messages                         | #
+# +------------------------------------------------------+ #
+############################################################
+# Configure XCatch messages
+# Color codes are done with '§'
+
+# The reason a player sees when they get banned
+# Available variables:
+# {player}: the player who got banned
+# {duration}: for how long the player got banned
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+ban-reason: '§8[§cXCatch§8] §7You have been banned for §cx-ray§7 for §c{duration}§7.'
+
+# Alert message that is sent to staff
+# Available variables:
+# {player}: the player who got flagged
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+alert-message: '§8[§cXCatch§8] §7Flagged §c{player}§7 for potential §cx-ray§7. §c{player}§7 mined §c{amount} {ore}§7. (§c{flags}§7)'
+
+# Message that is sent to staff if someone gets banned
+# Available variables:
+# {player}: the player who got banned
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {duration}: How long the player has been banned
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+ban-message: '§8[§cXCatch§8] §7Banned §c{player}§7 for §cx-ray§7 for §c{duration}§7. §c{player}§7 mined §c{amount} {ore}§7. (§c{flags}§7)'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Discord  Messages                   | #
+# +------------------------------------------------------+ #
+############################################################
+# Configuration for the messages sent do Discord,
+# to enable Discord integration, please go to the DiscordSRV
+# or Discord Webhook section and enable one of those
+
+# Should XCatch send a Discord message for an alert?
+message-alert: true
+
+# Message that gets sent to Discord if an alert is triggered
+# Available variables:
+# {player}: the player who got flagged
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+alert-message-discord: '[XCatch] Flagged {player} for potential x-ray. {player} mined {amount} {ore}. ({flags})'
+
+# Should XCatch send a Discord message for a ban?
+message-ban: true
+
+# Message that is sent to Discord if someone gets banned
+# Available variables:
+# {player}: the player who got banned
+# {flags}: amount of flags this player has
+# {ore}: ore the player was mining
+# {amount}: amount of that ore the player has mined
+# {duration}: How long the player has been banned
+# {x}: X Coordinate location where the ore was found
+# {y}: Y Coordinate location where the ore was found
+# {z}: Z Coordinate location where the ore was found
+# {world}: The name of the world where the ore was found
+ban-message-discord: '[XCatch] Banned {player} for x-ray. {player} mined {amount} {ore}. ({flags})'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Discord Webhook                    | #
+# +------------------------------------------------------+ #
+############################################################
+# Configuration of the Discord webhook integration
+# Configure this OR DiscordSRV to enable Discord integration
+
+# The url of the discord webhook, leave blank to disable
+webhook-url: ''
+
+# The username to use in the webhook
+webhook-username: 'XCatch'
+
+# Url of the avatar of the webhook, blank for none
+webhook-avatar: ''
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     DiscordSRV                       | #
+# +------------------------------------------------------+ #
+############################################################
+# Configuration of the DiscordSRV integration
+# Configure this OR Discord Webhook to enable Discord integration
+
+# The id of the channel where you want the Discord message to be sent
+# Leave empty to disable DiscordSRV integration
+discord-channel: ''
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Advanced                         | #
+# +------------------------------------------------------+ #
+############################################################
+# Only touch this if you know what you're doing!
+# This could make it so XCatch doesn't pick up x-ray or gives a lot of false flags
+
+# How many direction changes are required for a flag
+changes-for-flag: 5
+
+# The minimum difference of the angle between the previous direction to trigger a direction change
+change-angle: 60
+
+# How long you have to keep your angle difference below the 'change-angle' field to reset the tracking data on a player in seconds
+# After turning goes back to the value given here
+direction-change-retention: 60
+
+# The maximum amount of pending direction changes
+# A pending direction change is when you mine a block in a different direction but don't actually go in the direction
+# Having a value that is too high might cause false flags when insta-mining
+max-pending: 3
+
+# Period after mining a rare ore that no direction changes are recorded in seconds
+# This is to avoid false flags after mining an ore
+grace-period: 1
+
+# How much time a flag is kept for banning the player or alerting players with the 'xcatch.alert' permission in minutes
+# This does not affect the flags in the /xcatch view
+flag-retention: 30

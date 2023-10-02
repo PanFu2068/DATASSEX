@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1695908746815
+  lastteleport: 1696252444132
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1695908917228
-  login: 1695906610428
+  logout: 1696253256549
+  login: 1696252186488
 money: '0'
 last-account-name: zriptobin
 logoutlocation:
   world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
   world-name: world
-  x: 63.48433258831349
-  y: 52.0625
-  z: 372.02958488657333
-  yaw: 17.4678955078125
-  pitch: 31.749340057373047
+  x: 62.80788455363638
+  y: 52.0
+  z: 386.29938562312
+  yaw: -127.04437255859375
+  pitch: 47.62729263305664
 lastlocation:
   world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
   world-name: world
-  x: 69.87774612065927
-  y: 52.0625
-  z: 367.726961727916
-  yaw: 30.371679306030273
-  pitch: 1.2000041007995605
+  x: 67.10662215712816
+  y: 43.0
+  z: 389.43147536985896
+  yaw: 139.75265502929688
+  pitch: 16.800037384033203

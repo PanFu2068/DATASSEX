@@ -1,7 +1,7 @@
 # === Skript's variable storage ===
 # Please do not modify this file manually!
 #
-# version: 2.7.0
+# version: 2.7.1
 
 player::login::loggedin::2c8e3283-17cc-3b57-b589-ce2a3eb0a42c, boolean, 01
 player::login::loggedin::a81536ca-871c-3712-9bac-ec869188de9d, boolean, 01

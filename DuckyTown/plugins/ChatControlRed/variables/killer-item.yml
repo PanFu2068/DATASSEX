@@ -1,0 +1,85 @@
+# -------------------------------------------------------------------------------------------------
+# ChatControl supports dynamic, high performance variables you create! They can be used across
+# the plugin, for example in formatting your chat or death messages. Currently, the folder
+# variables/ stores all custom variables in each separate yml file.
+#
+# Variables can not only be used to display information, but because you can write your own full
+# code in JavaScript to display them, they can also do whatever you would wish for your
+# players/server, such as sneaking in code to send sounds or spawn monsters.
+#
+# Coding this variable requires a little bit of JavaScript knowledge, see the link below.
+#
+# For documentation and help, please see this link:
+# https://github.com/kangarko/ChatControl-Red/wiki/JavaScript-Variables
+# -------------------------------------------------------------------------------------------------
+
+# Where should this variable be used?
+#
+# FORMAT = used in your formats with {syntax}, players cannot use it
+# MESSAGE = players can use it with [syntax] in their chat messages
+Type: MESSAGE
+
+# The key is the word we look for surrounded by brackets [] OR {}, example:
+# Chat message: "Hello everyone, I have an [item] in my hand"
+Key: "killer_item"
+
+# The value the key will be replaced to.
+# This uses JavaScript and must return a boolean value.
+Value: |-
+
+    // A valid JavaScript code follows below. You can use the "player" variable to get
+    // Bukkit's player instance. 
+    itemDisplayName();
+    
+    function itemDisplayName() {
+        var item = player.getInventory().getItemInHand();
+    
+        // Change these three variables to alter the color of the killer item and what name
+        // shall we use if killer had no item
+        var textColor = '&a';
+        var bracketColor = '&f';
+        var airName = 'fists';
+    
+        if (item.hasItemMeta() && item.getItemMeta().hasDisplayName()) {
+            var itemName = player.getInventory().getItemInHand().getItemMeta().getDisplayName();
+    
+            return bracketColor + '[' + textColor + itemName + bracketColor + ']';
+    
+        } else {
+            var wordUtils = Java.type("org.apache.commons.lang.WordUtils");
+    
+            var itemMaterial = player.getInventory().getItemInHand().getType().name();
+            var itemDefaultName = wordUtils.capitalizeFully(itemMaterial.equals("AIR") || itemMaterial.contains("_AIR") ? airName : itemMaterial.replaceAll('_', ' '));
+    
+            return bracketColor + '[' + textColor + itemDefaultName + bracketColor + ']';
+        }
+    }
+
+# What item should be displayed when we hover the mouse over this variable in the chat?
+Hover_Item: "player.getItemInHand()"
+
+# What text or texts should display when we hover the mouse over this variable in the chat?
+Hover: []
+
+# What website should be opened when we click the mouse on this variable?
+Open_Url: ""
+
+# What command should appear in the player's command box when we click the mouse on this variable?
+Suggest_Command: ""
+
+# What command should run as the sender when he clicks the mouse on this variable? Minecraft only supports 1 command!
+Run_Command: ""
+
+# What JavaScript condition must return true for this variable to show?
+# You can put variables in here to get replaced.
+Sender_Condition: ''
+
+# What permission must the message sender have in order for this variable to display to him?
+Sender_Permission: ''
+
+# See Sender_Condition, except that we evaluate the JavaScript for each chat message receiver
+# and only show the message to those receivers for which the condition returns true.
+Receiver_Condition: ''
+
+# What permission must the message receiver have in order for this variable to display to them?
+Receiver_Permission: ''

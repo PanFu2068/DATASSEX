@@ -1,0 +1,296 @@
+#Here you can change some additional options to customize your experience with the plugin.
+
+#Below you can set by how much the scores will decrease on death in /deathReset command (in % 0-100). No matter the percentage, player's score will always decrease by at least 1.
+#Example:   deathResetVal: 30 => scores decrease by 30%, rounded up.
+deathResetVal: 100               #0-100
+
+#If set to 'false' players won't get scores from killing mobs spawned by Mob Spawners.
+countSpawnerMob: true              #true/false
+
+#If set to 'true' disable the power-up effects you get from killing mobs, as well as disable getting scores.
+disablePowers: false               #true/false
+
+#If set to 'false' disables the Welcome Message for new players joining the server
+welcomeMessage: true
+
+#If set to 'false' new players won't receive the infoBook upon joining the server
+infoBook: true
+
+#Here are the Mob's statistics, which you can change to your liking, but 2 things first: 
+#1 - Flying mobs are unaffected by changing movement speed so They don't have such option.
+#2 - Damage you place here is the 'normal' damage. That means on 'normal' difficulty. Most damage is naturally changed in the game by the difficulty setting, following a formula:
+#easy: (normalDMG / 2)+1
+#hard: normalDMG * 1.5
+#Some dmgs are always the same on all difficulties (like fireballs, potions)
+
+Zombie:         #Zombie, Husk, Zombie Villager, Drowned
+  HP: 40.0
+  DMG: 6.0
+  SPEED: 0.25
+  tridPrec: -1   #the % chance of a drowned spawning with a trident. '-1' means it's unchanged (Put values 0-100). For drowned spawned with underwater ruin structures, only values 0 and 100 will work. 
+  SHARP: 3       #Drowned's Trident enchantments. Set to 0 to remove the enchantment. Set to -1 to remove the enchantments, but still allow natural spawn with them.
+  LOYALTY: -1
+  RIPTIDE: -1
+  UNBREAKING: -1
+  MENDING: -1
+  drops: true      #If set to 'false' it'll disable mobs from dropping any items.
+  expDrops: -1     #Set your own xp value dropped from mobs. '-1' means it's unchanged. Setting it to 0 will disable exp drops.
+  spawnRate: 100   #You can set the chance of mob spawning. 100 is 100%, which is default. 
+#Unfortunately it can only go down from 100 to 0, so if you want more of certain mob, you can try to decrease the spawn rate of all the other mobs in the area, so that this one will have more 'room' so occupy.
+#For gameplay reasons, it will only work on mobs spawned naturally, so commands, spawn eggs, spawners aren't affected. It won't also work on mobs spawned inside structures eg. Elder Guardians, Underwater Ruins Drowneds, Mansion Evokers ect...
+#======== If you want a mob entirely out of existance (it will always disappear no matter what spawn method is used, this also works on the 'structure mobs'), set it to '-1' =========
+
+Skeleton:      #Skeleton, Stray
+  HP: 35.0
+  DMG: 4.0      #Mele damage, irrelevant if skeleton has a bow
+  SPEED: 0.27
+  POWER: 1      #Bow enchantment levels
+  PUNCH: 1
+  FLAME: -1
+  UNBREAKING: -1
+  MENDING: -1
+  INFINITY: -1
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Creeper:
+  HP: 30.0
+  DMG: 1.0      #This is a dmg variable in %, 1.0 equals to 100%, which means unchanged damage. It will only change the damage done to entities, not destruction of the world.
+  SPEED: 0.25
+  KNOCK: 0.55   #Creeper's Knockback resistance
+  CHARGED: true   #If 'true', creeper is electro-charged, if 'false' just a normal creeper with normal explosion
+  ability: true   #If 'false' it'll remove the player's ability to self-explode when right-clicking gunpowder, from killing creepers.
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Spider:         #Spider, Cave Spider
+  HP: 24.0
+  caveHP: 18.0   #Cave Spider's HP
+  DMG: 7.0
+  SPEED: 0.4
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Enderman:
+  HP: 80.0
+  DMG: 13.0
+  SPEED: 0.3
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+IronGolem:
+  HP: 200.0
+  DMG: 20.0      #Golems and Hoglins dmg varies by about 50% up and down from the set value
+  SPEED: 0.3
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Guardian:
+  HP: 45.0
+  DMG: 11.0
+  SPEED: 0.55
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+ElderGuardian:
+  HP: 160.0
+  DMG: 15.0
+  SPEED: 0.35
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+ZombiePiglin:
+  HP: 40.0
+  DMG: 8.0      #8.0 is the base damage. With the golden sword (which is +3 dmg) the total dmg is 11.0
+  SPEED: 0.25
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+WitherSkeleton:
+  HP: 40.0
+  DMG: 7.0      #Same as with zombie piglins but with stone sword (+4 dmg). The total dmg is also 11.0
+  SPEED: 0.27
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Piglin:
+  HP: 24.0
+  DMG: 8.0
+  SPEED: 0.35
+  QuickCharge: 3      #Crossbow enchantments
+  Piercing: 1
+  MULTISHOT: -1
+  UNBREAKING: -1
+  MENDING: -1
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Brute:
+  HP: 80.0
+  DMG: 12.0      # +6 with golden axe
+  SPEED: 0.35
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Blaze:
+  HP: 30.0
+  DMG: 9.0
+  Fireball: 9.0      #Damage of Small Fireballs
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+MagmaCube:         #Stats here are the stats of a Big Magma Cube
+  HP: 32.0
+  DMG: 8.0         #Magma Cubes have always +2 bonus DMG in-game. That means, if DMG is set to 8.0, they will actually deal 8+2 = 10 dmg.
+  SPEED: 0.7
+  sameHP: false      # 'true' to make all different MagmaCube sizes have the same stat. If 'false', different sizes will have their stats adjusted automatically.
+  sameDMG: true
+  sameSPEED: true
+  drops: true
+  expDrops: -1
+  sameXP: true      #same rules as the 'same...' stats above
+  spawnRate: 100
+
+Slime:               #Slimes have the same rules as Magma Cubes, except the +2 bonus DMG
+  HP: 32.0
+  DMG: 10.0
+  SPEED: 0.7
+  sameHP: false
+  sameDMG: true
+  sameSPEED: true
+  drops: true
+  expDrops: -1
+  sameXP: true
+  spawnRate: 100
+
+Ghast:
+  HP: 20.0
+  Fireball: 12.0      #Damage of Big Fireballs
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Wither:
+  HP: 600.0
+  Skull: 12.0      #Damage of Wither Skulls
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+EnderDragon:
+  DMGreduction: 50     #By how much the dmg dragon takes will be reduced (in %).
+  DMG: 15.0
+  Breath: 10.0         #Damage of Dragon Breath
+  ability: true        #If 'false' it'll remove the player's ability fly when elytra is equipped, from killing ender dragon. It's recomended to also disable it if you have other plugins that allow flight in survival, since this may conflict with each other.
+  expDrops: -1         #There are no 'drops' since they do not drop anything other than xp
+  spawnRate: 100
+
+Warden:
+  HP: 800.0
+  DMG: 45.0
+  SPEED: 0.35
+  Sonic: 16.0      #Damage of Sonic Boom
+  drops: true
+  customDrop: true   #the plugin's custom drop for warden in form of netherite scrap. Custom drops are only enabled if 'disablePowers: false'
+  expDrops: -1
+  spawnRate: 100   #even though warden spawn doesn't count as 'natural' i made it so that changing this value will also affect the chance of summoning warden by shriekers.
+
+Silverfish:         #Silverfish and Endermite
+  HP: 12.0
+  DMG: 3.0
+  SPEED: 0.3
+  expDrops: -1
+  spawnRate: 100
+  EndHP: 12.0      #Endermite Stats
+  EndDMG: 3.0
+  EndSPEED: 0.3
+  EndExpDrops: -1   
+  EndSpawnRate: 100
+
+Shulker:
+  HP: 60.0
+  Bullet: 7.0      #Damage of Shulker Bullet
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Pillager:
+  HP: 36.0
+  DMG: 5.0
+  SPEED: 0.4
+  QuickCharge: 2      #Crossbow enchantments
+  Piercing: 2
+  MULTISHOT: -1
+  UNBREAKING: -1
+  MENDING: -1
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Vindicator:
+  HP: 36.0
+  DMG: 10.0         # +8 with iron axe
+  SPEED: 0.4
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Hoglin:            #Hoglin and Zoglin
+  HP: 80.0
+  DMG: 9.0
+  SPEED: 0.35
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Ravager:
+  HP: 200.0
+  DMG: 18.0
+  SPEED: 0.4
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Evoker:
+  HP: 36.0
+  SPEED: 0.5
+  Fang: 11.0      #Damage of Evoker Fangs
+  drops: true
+  expDrops: -1
+  spawnRate: 100
+
+Vex:
+  HP: 21.0
+  DMG: 8.0      # +5 with iron sword
+  customDrop: true       #Damaged Elytra
+  expDrops: -1
+  spawnRate: 100       #since the only way vex can spawn in-game is with Evoker's spell (it's not 'natural') i made an exception so that you can also change here the chance of vex spawning from that spell.
+
+Phantom:
+  HP: 40.0
+  DMG: 8.0
+  drops: true
+  customDrop: true       #Damaged Elytra
+  expDrops: -1
+  spawnRate: 100
+
+Witch:
+  HP: 65.0
+  SPEED: 0.28
+  Harm: 10.0      #Damage of Witch's instant DMG Potion
+  drops: true
+  customDrop: true       #Lingering instant dmg potion
+  expDrops: -1
+  spawnRate: 100

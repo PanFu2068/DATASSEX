@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 1
+last-created-npc-id: 2
 npc:
   '0':
     metadata:
@@ -26,7 +26,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NTgyMzkwOTgxNiwKICAicHJvZmlsZUlkIiA6ICJhMjE4MDE1Y2E2Mjg0MGI5OTgyOWM3NTQyNTg1MzcwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaWFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMGY3NTgyOGZiM2VlODRkMWU0YzA2Yjc1OGJlMTg1MmQ4MzFmZTQyYWY1OTUxMTc0OTBjYjM2ZjgzM2MwYjA0IgogICAgfQogIH0KfQ==
         updateSkins: false
       spawned: false
-    traitnames: type,mounttrait,spawned,inventory,location,scoreboardtrait,skintrait,owner
+    traitnames: scoreboardtrait,mounttrait,owner,inventory,spawned,location,type,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

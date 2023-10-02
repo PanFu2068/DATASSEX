@@ -1,0 +1,61 @@
+undead:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 35
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 6
+spider:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+creeper:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 9
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+enderman:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+ironGolem:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+axolotl:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+bunny:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+dolphin:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+guardian:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+elderGuardian:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+bat:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+chicken:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+dragon:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+wither:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+fireRes:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+warden:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+silver:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+shulker:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: 0
+  bff357be-6633-3479-bae5-37b9eb63e2a4: 0
+thorns:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: false
+  bff357be-6633-3479-bae5-37b9eb63e2a4: false
+levitation:
+  f2efca04-1352-3431-9de6-9c9bfd24c0f7: false
+  bff357be-6633-3479-bae5-37b9eb63e2a4: false
+deathReset: false
